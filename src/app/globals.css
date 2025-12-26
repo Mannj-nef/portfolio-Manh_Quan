@@ -1,26 +1,96 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ===== Base colors (Typeform / Warm Minimalist) ===== */
+  --background: 250 248 245; /* #FAF8F5 - Warm Cream/Bone */
+  --foreground: 25 25 25; /* #191919 - Soft Black */
+
+  --card: 255 255 255; /* #FFFFFF */
+  --card-foreground: 25 25 25;
+
+  --border: 228 226 221; /* #E4E2DD - Warm Grey */
+  --muted: 240 238 234; /* #F0EEEA */
+  --muted-foreground: 100 98 95; /* #64625F - Warm Dark Grey */
+
+  /* ===== Primary / Accent ===== */
+  --primary: 25 25 25; /* #191919 - Primary is Soft Black (High Contrast) */
+  --primary-foreground: 255 255 255;
+
+  --secondary: 235 231 225; /* #EBE7E1 */
+  --secondary-foreground: 25 25 25;
+
+  --success: 22 163 74; /* #16A34A */
+  --warning: 217 119 6; /* #D97706 */
+  --error: 220 38 38; /* #DC2626 */
+
+  /* ===== Radius (Soft/Organic) ===== */
+  --radius: 2rem; /* 32px - Very round cards */
+
+  scroll-behavior: smooth;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+[data-theme='dark'] {
+  /* ===== Base colors (Warm Stone / Organic Dark) ===== */
+  --background: 6 8 20; /* #060930 - Stone 950 (Deep Warm Black) */
+  --foreground: 231 229 228; /* #E7E5E4 - Stone 200 (Soft Off-White) */
+
+  --card: 28 25 23; /* #1C1917 - Stone 900 */
+  --card-foreground: 231 229 228;
+
+  --border: 41 37 36; /* #292524 - Stone 800 */
+  --muted: 41 37 36; /* #292524 */
+  --muted-foreground: 168 162 158; /* #A8A29E - Stone 400 */
+
+  /* ===== Primary / Accent ===== */
+  --primary: 250 250 249; /* #FAFAF9 - Stone 50 */
+  --primary-foreground: 12 10 9;
+
+  --secondary: 41 37 36; /* #292524 */
+  --secondary-foreground: 250 250 249;
+
+  --success: 22 163 74; /* #16A34A */
+  --warning: 217 119 6; /* #D97706 */
+  --error: 239 68 68; /* #EF4444 */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), ui-serif, Georgia, Cambria, 'Times New Roman',
+    Times, serif;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --color-background: rgb(var(--background));
+  --color-foreground: rgb(var(--foreground));
+
+  --color-card: rgb(var(--card));
+  --color-card-foreground: rgb(var(--card-foreground));
+
+  --color-popover: rgb(var(--card));
+  --color-popover-foreground: rgb(var(--card-foreground));
+
+  --color-primary: rgb(var(--primary));
+  --color-primary-foreground: rgb(var(--primary-foreground));
+
+  --color-secondary: rgb(var(--secondary));
+  --color-secondary-foreground: rgb(var(--secondary-foreground));
+
+  --color-muted: rgb(var(--muted));
+  --color-muted-foreground: rgb(var(--muted-foreground));
+
+  --color-accent: rgb(
+    var(--secondary)
+  ); /* Mapping accent to secondary for now as it was missing */
+  --color-accent-foreground: rgb(var(--secondary-foreground));
+
+  --color-destructive: rgb(var(--error));
+  --color-destructive-foreground: rgb(
+    var(--background)
+  ); /* Assuming white/dark text on error */
+
+  --color-border: rgb(var(--border));
+  --color-input: rgb(var(--border)); /* Mapping input to border */
+  --color-ring: rgb(var(--primary));
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
 }

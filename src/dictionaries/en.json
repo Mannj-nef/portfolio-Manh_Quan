@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Vo Manh Quan",
+    "introduction": "I'm",
+    "role": "Web Developer",
+    "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript. I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
+    "greeting": "Hello",
+    "myCV": "Resume",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "Summarize",
+    "items": [
+      "Worked at Napa Global for over a year (now)",
+      "Worked FPT Software (Fsoft) for 6 months",
+      "Graduated in Frontend programming at IViettech programming center",
+      "Good skilled IT with over 2 years' experience including web development, maintenance at both corporate environments and freelancer.",
+      "Experienced in web development, from database to services and user interfaces",
+      "Strong problem-solving, ability to debug and understand the existing source code",
+      "Have a deep understanding of UI/UX.",
+      "Know clean code, optimize applications.",
+      "Proficient in Git"
+    ]
+  },
+  "objectives": {
+    "title": "Career Objectives",
+    "shortTermTitle": "Short-term objectives",
+    "shortTerm": [
+      "Constantly learning and improving knowledge to develop professional skills",
+      "Desire to work and learn in a professional environment.",
+      "Looking for opportunities to donate and develop myself"
+    ],
+    "longTermTitle": "Long-term objectives",
+    "longTerm": [
+      "Become a good Full Stack Developer, have good professional qualifications",
+      "Have background knowledge in software technology as well as the ability to discuss well with client",
+      "Create changes to contribute to development of the company"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "technical": "Technical Skills",
+    "technicalList": [
+      "Languages: Javascript, TypeScript",
+      "Frameworks: (Reactjs), Nextjs, (Vuejs 3), Nuxt 3, Nodejs, Nestjs",
+      "Database: NoSQL(MongoDB), SQL(Postgres)",
+      "Version Control: Git",
+      "REST API"
+    ],
+    "additional": "Additional Skills",
+    "additionalList": [
+      "Figma (for developer)",
+      "Research and resolve issues skill",
+      "Postman",
+      "Swagger",
+      "Type ORM",
+      "Docker",
+      "AWS, Firebase, Google Cloud Console"
+    ],
+    "soft": "Soft Skills",
+    "softList": ["Team work", "Work independently", "Time Management"]
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      {
+        "company": "Napa Global",
+        "role": "Web Developer",
+        "period": "Over 1 year",
+        "description": "Full stack development and maintenance."
+      },
+      {
+        "company": "FPT Software (Fsoft)",
+        "role": "Developer",
+        "period": "6 months",
+        "description": "Participated in software development projects."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "github": "Github",
+    "address": "Address"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "experience": "Kinh nghiệm",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "name": "Võ Mạnh Quân",
+    "introduction": "tôi là",
+    "role": "Lập trình viên Web",
+    "description": "Tôi là một kỹ sư phần mềm với trách nhiệm chính trong việc thiết kế và phát triển ứng dụng, phần mềm chủ yếu bằng ngôn ngữ lập trình JavaScript. Tôi có hơn 3 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, bao gồm việc xây dựng, bảo trì hệ thống và phân tích yêu cầu cho các dự án freelance cũng như khi làm việc tại công ty.",
+    "greeting": "Xin chào",
+    "myCV": "CV của tôi",
+    "contactMe": "Liên hệ"
+  },
+  "about": {
+    "title": "Tóm tắt",
+    "items": [
+      "Đã làm việc tại Napa Global hơn 1 năm (hiện tại)",
+      "Đã làm việc tại FPT Software (Fsoft) 6 tháng",
+      "Tốt nghiệp lập trình Frontend tại trung tâm lập trình IViettech",
+      "Kỹ năng CNTT tốt với hơn 2 năm kinh nghiệm bao gồm phát triển web, bảo trì tại cả môi trường doanh nghiệp và làm freelancer.",
+      "Có kinh nghiệm phát triển web, từ cơ sở dữ liệu đến dịch vụ và giao diện người dùng",
+      "Khả năng giải quyết vấn đề tốt, debug và hiểu mã nguồn hiện có",
+      "Hiểu sâu về UI/UX.",
+      "Biết về clean code, tối ưu hóa ứng dụng.",
+      "Thành thạo Git"
+    ]
+  },
+  "objectives": {
+    "title": "Mục tiêu nghề nghiệp",
+    "shortTermTitle": "Mục tiêu ngắn hạn",
+    "shortTerm": [
+      "Không ngừng học hỏi và trau dồi kiến thức để phát triển kỹ năng chuyên môn",
+      "Mong muốn làm việc và học tập trong môi trường chuyên nghiệp.",
+      "Tìm kiếm cơ hội cống hiến và phát triển bản thân"
+    ],
+    "longTermTitle": "Mục tiêu dài hạn",
+    "longTerm": [
+      "Trở thành Full Stack Developer giỏi, có trình độ chuyên môn tốt",
+      "Có kiến thức nền tảng về công nghệ phần mềm cũng như khả năng thảo luận tốt với khách hàng",
+      "Tạo ra những thay đổi để đóng góp vào sự phát triển của công ty"
+    ]
+  },
+  "skills": {
+    "title": "Kỹ năng",
+    "technical": "Kỹ năng chuyên môn",
+    "technicalList": [
+      "Ngôn ngữ: Javascript, TypeScript",
+      "Frameworks: (Reactjs), Nextjs, (Vuejs 3), Nuxt 3, Nodejs, Nestjs",
+      "Cơ sở dữ liệu: NoSQL(MongoDB), SQL(Postgres)",
+      "Quản lý phiên bản: Git",
+      "REST API"
+    ],
+    "additional": "Kỹ năng bổ sung",
+    "additionalList": [
+      "Figma (dành cho developer)",
+      "Kỹ năng nghiên cứu và giải quyết vấn đề",
+      "Postman",
+      "Swagger",
+      "Type ORM",
+      "Docker",
+      "AWS, Firebase, Google Cloud Console"
+    ],
+    "soft": "Kỹ năng mềm",
+    "softList": ["Làm việc nhóm", "Làm việc độc lập", "Quản lý thời gian"]
+  },
+  "experience": {
+    "title": "Kinh nghiệm",
+    "list": [
+      {
+        "company": "Napa Global",
+        "role": "Lập trình viên Web",
+        "period": "Hơn 1 năm",
+        "description": "Phát triển và bảo trì Full stack."
+      },
+      {
+        "company": "FPT Software (Fsoft)",
+        "role": "Lập trình viên",
+        "period": "6 tháng",
+        "description": "Tham gia các dự án phát triển phần mềm."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "github": "Github",
+    "address": "Địa chỉ"
+  }
+}

@@ -16,32 +16,39 @@
     "contactMe": "Liên hệ"
   },
   "about": {
-    "title": "Tóm tắt",
-    "items": [
-      "Đã làm việc tại Napa Global hơn 1 năm (hiện tại)",
-      "Đã làm việc tại FPT Software (Fsoft) 6 tháng",
-      "Tốt nghiệp lập trình Frontend tại trung tâm lập trình IViettech",
-      "Kỹ năng CNTT tốt với hơn 2 năm kinh nghiệm bao gồm phát triển web, bảo trì tại cả môi trường doanh nghiệp và làm freelancer.",
-      "Có kinh nghiệm phát triển web, từ cơ sở dữ liệu đến dịch vụ và giao diện người dùng",
-      "Khả năng giải quyết vấn đề tốt, debug và hiểu mã nguồn hiện có",
-      "Hiểu sâu về UI/UX.",
-      "Biết về clean code, tối ưu hóa ứng dụng.",
-      "Thành thạo Git"
-    ]
+    "title": "Tóm tắt"
   },
   "objectives": {
-    "title": "Mục tiêu nghề nghiệp",
-    "shortTermTitle": "Mục tiêu ngắn hạn",
-    "shortTerm": [
-      "Không ngừng học hỏi và trau dồi kiến thức để phát triển kỹ năng chuyên môn",
-      "Mong muốn làm việc và học tập trong môi trường chuyên nghiệp.",
-      "Tìm kiếm cơ hội cống hiến và phát triển bản thân"
-    ],
-    "longTermTitle": "Mục tiêu dài hạn",
-    "longTerm": [
-      "Trở thành Full Stack Developer giỏi, có trình độ chuyên môn tốt",
-      "Có kiến thức nền tảng về công nghệ phần mềm cũng như khả năng thảo luận tốt với khách hàng",
-      "Tạo ra những thay đổi để đóng góp vào sự phát triển của công ty"
+    "title": "Senior Full-stack Engineer",
+    "subtitle": "Mục tiêu nghề nghiệp",
+    "become": "Trở thành",
+    "yearExperience": "Năm kinh nghiệm",
+    "projectDone": "Dự án đã hoàn thành",
+    "description": "Tôi không chỉ viết code, tôi xây dựng giải pháp. Tôi tập trung vào Clean Code, Design Patterns và khả năng độc lập giải quyết trọn vẹn một tính năng từ Database đến UI. Mục tiêu của tôi là làm chủ hệ sinh thái JavaScript/TypeScript để tạo ra các ứng dụng Web có khả năng mở rộng cao, hiệu năng tối ưu và tiết kiệm chi phí."
+  },
+  "growthRoadmap": {
+    "title": "Phát triển bản thân",
+    "subtitle": "Định hướng",
+    "orientation": "Định hướng",
+    "list": [
+      {
+        "id": "01",
+        "title": "Ngắn hạn (1-2 năm)",
+        "descriptions": [
+          "Chinh phục chứng chỉ AWS Solution Architect.",
+          "Đào sâu về Micro-frontends/Microservices.",
+          "Mong muốn làm việc và học tập trong môi trường chuyên nghiệp.",
+          "Tìm kiếm cơ hội cống hiến và phát triển bản thân."
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Dài hạn (3-5 năm)",
+        "descriptions": [
+          "Trở thành Tech Lead, mentor cho các thành viên trẻ và tham gia vào quá trình phát triển sản phẩm (Product Mindset).",
+          "Tạo ra những thay đổi để đóng góp vào sự phát triển của công ty."
+        ]
+      }
     ]
   },
   "skills": {

@@ -30,18 +30,36 @@
     ]
   },
   "objectives": {
-    "title": "Career Objectives",
-    "shortTermTitle": "Short-term objectives",
-    "shortTerm": [
-      "Constantly learning and improving knowledge to develop professional skills",
-      "Desire to work and learn in a professional environment.",
-      "Looking for opportunities to donate and develop myself"
-    ],
-    "longTermTitle": "Long-term objectives",
-    "longTerm": [
-      "Become a good Full Stack Developer, have good professional qualifications",
-      "Have background knowledge in software technology as well as the ability to discuss well with client",
-      "Create changes to contribute to development of the company"
+    "title": "Senior Full-stack Engineer",
+    "subtitle": "Career Objective",
+    "become": "Become",
+    "yearExperience": "Year Experience",
+    "projectDone": "Project Done",
+    "description": "I don't just write code, I build solutions. I focus on clean code, design patterns, and the ability to independently handle a complete feature from database to UI. My goal is to master the JavaScript/TypeScript ecosystem to create highly scalable, high-performance, and cost-effective web applications."
+  },
+  "growthRoadmap": {
+    "title": "Personal development",
+    "subtitle": "Growth Roadmap",
+    "orientation": "Orientation",
+    "list": [
+      {
+        "id": "01",
+        "title": "Short-term (1-2 Years)",
+        "descriptions": [
+          "Obtain AWS Solution Architect certification.",
+          "Deep dive into Micro-frontends/Microservices.",
+          "I aspire to work and study in a professional environment.",
+          "Seeking opportunities to contribute and develop oneself."
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Long-term (3-5 Years)",
+        "descriptions": [
+          "Become Tech Lead, mentor for junior members and participate in product development process (Product Mindset).",
+          "Create changes to contribute to the company's growth."
+        ]
+      }
     ]
   },
   "skills": {

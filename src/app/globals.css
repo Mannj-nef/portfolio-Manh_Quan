@@ -4,6 +4,7 @@
   /* ===== Base colors (Typeform / Warm Minimalist) ===== */
   --background: 250 248 245; /* #FAF8F5 - Warm Cream/Bone */
   --foreground: 25 25 25; /* #191919 - Soft Black */
+  --manhattan: 25 25 25;
 
   --card: 255 255 255; /* #FFFFFF */
   --card-foreground: 25 25 25;
@@ -26,12 +27,15 @@
   /* ===== Radius (Soft/Organic) ===== */
   --radius: 2rem; /* 32px - Very round cards */
 
+  --indigo: 79 70 229;
+  --emerald: 5 150 85;
+
   scroll-behavior: smooth;
 }
 
 [data-theme='dark'] {
   /* ===== Base colors (Warm Stone / Organic Dark) ===== */
-  --background: 6 8 20; /* #060930 - Stone 950 (Deep Warm Black) */
+  --background: 6 8 40; /* #060930 - Stone 950 (Deep Warm Black) */
   --foreground: 231 229 228; /* #E7E5E4 - Stone 200 (Soft Off-White) */
 
   --card: 28 25 23; /* #1C1917 - Stone 900 */
@@ -51,6 +55,10 @@
   --success: 22 163 74; /* #16A34A */
   --warning: 217 119 6; /* #D97706 */
   --error: 239 68 68; /* #EF4444 */
+
+  --indigo: 79 70 329;
+  --emerald: 5 150 85;
+  --manhattan: 168 162 168;
 }
 
 @theme {
@@ -75,6 +83,10 @@
 
   --color-muted: rgb(var(--muted));
   --color-muted-foreground: rgb(var(--muted-foreground));
+
+  --color-indigo: rgb(var(--indigo));
+  --color-emerald: rgb(var(--emerald));
+  --color-manhattan: rgb(var(--manhattan));
 
   --color-accent: rgb(
     var(--secondary)

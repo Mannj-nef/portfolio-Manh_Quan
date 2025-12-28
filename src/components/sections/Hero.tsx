@@ -4,10 +4,11 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Github, BookText } from 'lucide-react'
 import { Button } from '~/components/ui/button'
+import { IHero } from '~/types'
 
-export function Hero({ dict }: { dict: Record<string, any> }) {
+export function Hero({ dict }: { dict: IHero }) {
   return (
-    <section className="relative py-24 md:py-32 overflow-hidden">
+    <section className="relative py-24 overflow-hidden">
       <div className="container mx-auto px-4 gap-8 flex flex-col md:flex-row">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -21,7 +22,7 @@ export function Hero({ dict }: { dict: Record<string, any> }) {
             </p>
             <p className="font-bold text-3xl">{dict.name}</p>
           </h2>
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold font-serif tracking-tight text-foreground leading-[0.9] mb-12">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold font-serif tracking-tight text-manhattan leading-[0.9] mb-12">
             Full Stack
             <br />
             Developer.

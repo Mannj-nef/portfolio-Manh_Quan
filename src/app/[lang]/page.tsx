@@ -22,7 +22,7 @@ export default async function Home({
     url: 'https://vomanhquan.com',
     image: 'https://vomanhquan.com/assets/avatar.png',
     sameAs: [
-      'https://github.com/vmquan',
+      'https://github.com/mannj-nef',
       'https://linkedin.com/in/vmquan',
       'https://twitter.com/vmquan',
     ],
@@ -40,7 +40,8 @@ export default async function Home({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Hero dict={dict.hero} />
-      <About dict={dict.about} objDict={dict.objectives} />
+
+      <About objectives={dict.objectives} growthRoadmap={dict.growthRoadmap} />
       <Projects />
       <Skills dict={dict.skills} />
       <Experience dict={dict.experience} />

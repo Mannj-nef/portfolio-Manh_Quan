@@ -33,7 +33,7 @@ const CareerObjective = ({ dict }: CareerObjectiveProps) => {
             </div>
           </div>
           <div>
-            <div className="text-5xl font-bold mb-2">10+</div>
+            <div className="text-5xl font-bold mb-2">6+</div>
             <div className="text-sm text-muted-foreground uppercase tracking-widest">
               {dict.projectDone}
             </div>

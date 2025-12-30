@@ -42,9 +42,9 @@ export default async function Home({
       <Hero dict={dict.hero} />
 
       <About objectives={dict.objectives} growthRoadmap={dict.growthRoadmap} />
-      <Projects />
       <Skills dict={dict.skills} />
       <Experience dict={dict.experience} />
+      <Projects dict={dict.project} />
       <Contact dict={dict.contact} />
     </div>
   )

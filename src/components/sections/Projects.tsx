@@ -1,32 +1,27 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
-import { Badge } from '@/components/ui/badge'
-import { ArrowUpRight } from 'lucide-react'
+import { CSSProperties } from 'react'
+import { IProjects } from '~/types'
+import HeadingSection from '~/components/HeadingSection'
+import { TECHNICAL_LIST } from '~/constants'
+import { highlightText } from '~/utils/text'
 
-export function Projects() {
-  const projects = [
-    {
-      title: 'Finance Dashboard',
-      category: 'Web Application',
-      image: '/assets/project_dashboard_mockup.jpg',
-      tags: ['Next.js', 'Tailwind', 'Recharts'],
-    },
-    {
-      title: 'Banking Mobile App',
-      category: 'Mobile Design',
-      image: '/assets/project_mobile_app_mockup.jpg',
-      tags: ['React Native', 'Figma', 'iOS'],
-    },
-    {
-      title: "L'Equilibre Fashion",
-      category: 'E-Commerce',
-      image: '/assets/project_ecommerce_mockup.jpg',
-      tags: ['Shopify', 'Liquid', 'Minimal'],
-    },
-  ]
+import { TECH_SWIPER_OPTIONS } from '~/constants/swiper'
+import SwiperBase from '~/components/SwiperBase'
+import { SwiperSlide } from 'swiper/react'
+import IconBase from '~/components/IconBase'
 
+interface Project {
+  dict: IProjects
+}
+
+const mainColor: Record<string, string> = {
+  'PRODUCT @ NAPA GLOBAL': 'var(--color-christine)',
+  'Freelance project': 'var(--color-emerald)',
+}
+
+export function Projects({ dict }: Project) {
   return (
     <section id="portfolio" className="py-24 bg-muted/20">
       <div className="container mx-auto px-4">
@@ -37,57 +32,76 @@ export function Projects() {
           transition={{ duration: 0.6 }}
           className="mb-16 flex flex-col md:flex-row justify-between items-end gap-4"
         >
-          <h2 className="text-3xl font-bold font-serif tracking-tight">
-            Selected Works
-            <br />& Case Studies.
-          </h2>
+          <div className="flex flex-col gap-2">
+            <HeadingSection
+              title={dict.titleSecond}
+              subtitle={dict.practicalExperience}
+              become={dict.titleFirst}
+              isIndigoColor={true}
+            />
+          </div>
           <p className="text-muted-foreground whitespace-pre-line text-right hidden md:block">
-            A selection of projects that
+            {dict.description}
             <br />
-            showcase my skills.
+            {dict.subDescription}
           </p>
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, index) => (
+        <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
+          {dict.projects.map((project, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="group cursor-pointer"
+              style={
+                { '--accent': mainColor[project.company] } as CSSProperties
+              }
+              className="shadow-lg rounded-2xl p-6 bg-card flex flex-col gap-6"
             >
-              <div className="relative aspect-[4/3] overflow-hidden rounded-xl mb-4">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/10" />
-                <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm p-2 rounded-full opacity-0 translate-y-2 transition-all group-hover:opacity-100 group-hover:translate-y-0">
-                  <ArrowUpRight className="h-4 w-4" />
+              <div>
+                <div className="flex gap-2 items-center text-xs mb-2">
+                  <p className="text-[color:var(--accent)] px-4 py-1 rounded-full bg-[color-mix(in_srgb,var(--accent)_20%,transparent)] font-semibold uppercase">
+                    {project.company}
+                  </p>
+                  <p className="text-muted-foreground">{project.dateTime}</p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold mb">{project.title}</h3>
+
+                  <p className="font-bold text-muted-foreground text-xl">
+                    {project.subTitle}
+                  </p>
+
+                  <p className="my-4">{project.description}</p>
+
+                  <ul className="pl-5 space-y-3 list-disc marker:text-[color:var(--accent)]">
+                    {project.features.map((feature, index) => (
+                      <li key={index}>
+                        {highlightText(feature, TECHNICAL_LIST)}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2 group-hover:underline decoration-1 underline-offset-4">
-                {project.title}
-              </h3>
-              <div className="flex justify-between items-center">
-                <span className="text-muted-foreground text-sm">
-                  {project.category}
-                </span>
-                <div className="flex gap-2">
-                  {project.tags.map((tag) => (
-                    <Badge
-                      key={tag}
-                      variant="outline"
-                      className="text-xs font-normal border-transparent bg-background/50 backdrop-blur-sm"
+              <div className="mt-auto w-full max-w-full overflow-hidden">
+                <SwiperBase options={TECH_SWIPER_OPTIONS} className="w-full">
+                  {project.technologies.map((tech) => (
+                    <SwiperSlide
+                      key={tech}
+                      className="!w-auto py-1 px-4 rounded bg-muted"
                     >
-                      {tag}
-                    </Badge>
+                      <div className="flex items-center gap-2">
+                        <span className="text-muted-foreground text-sm">
+                          {tech}
+                        </span>
+                        <IconBase name={tech.toLowerCase()} />
+                      </div>
+                    </SwiperSlide>
                   ))}
-                </div>
+                </SwiperBase>
               </div>
             </motion.div>
           ))}

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import HeadingSection from '~/components/HeadingSection'
 
 interface SplitSectionProps {
   title: string
@@ -44,26 +45,12 @@ const SplitSection = ({
           transition={{ duration: 0.8 }}
           className="space-y-4"
         >
-          <div className="flex items-center gap-2">
-            <span
-              className={`w-8 h-[2px] ${
-                isIndigoColor ? 'bg-indigo' : 'bg-emerald'
-              }`}
-            ></span>
-            <span
-              className={`uppercase font-semibold ${
-                isIndigoColor ? 'text-indigo' : 'text-emerald'
-              }`}
-            >
-              {subtitle}
-            </span>
-          </div>
-          <h2 className="text-4xl font-bold font-serif tracking-tight">
-            <span className="mb-1 block">{become}</span>
-            <p className={`${isIndigoColor ? 'text-indigo' : 'text-emerald'} `}>
-              {title}
-            </p>
-          </h2>
+          <HeadingSection
+            title={title}
+            subtitle={subtitle}
+            become={become}
+            isIndigoColor={isIndigoColor}
+          />
           {children}
         </motion.div>
       </div>

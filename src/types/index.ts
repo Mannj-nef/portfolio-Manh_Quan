@@ -1,3 +1,7 @@
+import { TECHNICAL_LIST } from '~/constants'
+
+export type Technical = (typeof TECHNICAL_LIST)[number]
+
 export interface IHero {
   name: string
   introduction: string
@@ -25,5 +29,22 @@ export interface IGrowthRoadmap {
     id: string
     title: string
     descriptions: string[]
+  }[]
+}
+
+export interface IProjects {
+  practicalExperience: string
+  titleFirst: string
+  titleSecond: string
+  description: string
+  subDescription: string
+  projects: {
+    title: string
+    subTitle: string
+    dateTime: string
+    company: string
+    description: string
+    features: string[]
+    technologies: string[]
   }[]
 }

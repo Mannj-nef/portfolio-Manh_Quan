@@ -51,6 +51,119 @@
       }
     ]
   },
+  "project": {
+    "practicalExperience": "Kinh nghiệm thực tế",
+    "titleFirst": "Dự án",
+    "titleSecond": "Nổi bật",
+    "description": "Cung cấp các giải pháp web có khả năng mở rộng và trải nghiệm người dùng trực quan.",
+    "subDescription": "Dưới đây là một vài dự án tiêu biểu cho hành trình công nghệ của tôi.",
+    "projects": [
+      {
+        "title": "Scout TechFul",
+        "subTitle": "Nền tảng việc làm Nhật Bản",
+        "dateTime": "4/2025 -  10/2025",
+        "company": "Freelance project",
+        "description": "Một nền tảng tìm kiếm việc làm hiệu suất cao dành riêng cho thị trường Nhật Bản. Dự án tập trung vào trải nghiệm tìm kiếm mượt mà và khả năng SEO tối ưu.",
+        "features": [
+          "Kiến trúc hệ thống với Nuxt 3 đảm bảo SEO và SSR (Server-Side Rendering).",
+          "Quản lý state phức tạp (bộ lọc tìm kiếm, ứng tuyển) bằng Pinia.",
+          "Giảm lỗi runtime nhờ áp dụng chặt chẽ TypeScript.",
+          "Thiết kế giao diện hiện đại và dễ sử dụng với Tailwind CSS",
+          "Phân tích và tối ưu hóa hiệu suất với các kỹ thuật như code splitting và lazy loading."
+        ],
+        "technologies": [
+          "Nuxt 3",
+          "Pinia",
+          "TypeScript",
+          "Tailwind CSS",
+          "VeeValidate",
+          "TinyMCE",
+          "Swiper",
+          "Vuetify",
+          "Yup"
+        ]
+      },
+      {
+        "title": "Carrotcake",
+        "subTitle": "Nền tảng quản lý và tự động hóa mạng xã hội với AI",
+        "dateTime": "9/2023 - 2/2025",
+        "company": "PRODUCT @ NAPA GLOBAL",
+        "description": "Ứng dụng SaaS tích hợp AI giúp tự động sáng tạo nội dung và lên lịch đăng bài thông minh cho Facebook & Instagram.",
+        "features": [
+          "Tích hợp OpenAI API, kết hợp với đội ngũ backend FastAPI xây dựng engine gợi ý nội dung thông minh.",
+          "Xây dựng tính năng Drag-and-drop Scheduler trực quan với Next.js.",
+          "Xây dựng tính năng tự động lên lịch đăng bài thông minh với Next.js.",
+          "Thiết kế giao diện hiện đại và dễ sử dụng với Tailwind CSS"
+        ],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "React hook form",
+          "Yup",
+          "Scss"
+        ]
+      },
+      {
+        "title": "Napa-tools",
+        "subTitle": "Hệ thống quản lý nội bộ doanh nghiệp",
+        "dateTime": "Sep 2023 - Feb 2025",
+        "company": "PRODUCT @ NAPA GLOBAL",
+        "description": "Nền tảng quản lý nội bộ giúp doanh nghiệp theo dõi nhân sự, dự án, lịch làm việc và các quy trình vận hành trong một hệ thống tập trung.",
+        "features": [
+          "Xây dựng các module quản lý nhân sự, theo dõi dự án, đặt phòng họp và nghiệp vụ kế toán.",
+          "Triển khai chức năng chấm công, theo dõi lịch làm việc (on/off), đi trễ và xử lý đơn từ – phê duyệt.",
+          "Phát triển giao diện người dùng bằng React, tối ưu khả năng tái sử dụng và trải nghiệm.",
+          "Xây dựng backend với NestJS và PostgreSQL, đảm bảo hiệu năng và khả năng mở rộng.",
+          "Áp dụng phân quyền người dùng và thiết kế API rõ ràng, dễ bảo trì."
+        ],
+        "technologies": [
+          "React",
+          "Scss",
+          "React hook form",
+          "Zustand",
+          "React router",
+          "React query",
+          "Ant Design",
+          "TypeScript",
+          "Tailwind CSS",
+          "React big calendar",
+          "Yup",
+          "NestJS",
+          "PostgreSQL",
+          "TypeORM",
+          "Redis",
+          "JWT"
+        ]
+      },
+      {
+        "title": "Trainix",
+        "subTitle": "Nền tảng quản lý đào tạo lĩnh vực giao thông – vận tải",
+        "dateTime": "Apr 2025 - Oct 2025",
+        "company": "Freelance project",
+        "description": "Một ứng dụng web phục vụ cho việc quản lý đào tạo và giảng dạy trong lĩnh vực giao thông – vận tải, giúp tổ chức theo dõi khóa học, học viên và các quy trình đào tạo một cách hiệu quả.",
+        "features": [
+          "Phát triển giao diện người dùng bằng Vue.js, tập trung vào cấu trúc rõ ràng, khả năng tái sử dụng và trải nghiệm mượt mà.",
+          "Thiết kế và xây dựng backend bằng NestJS, đảm nhiệm xử lý nghiệp vụ, luồng dữ liệu và hệ thống API.",
+          "Xây dựng các chức năng cốt lõi như quản lý khóa học, học viên và dữ liệu đào tạo liên quan.",
+          "Thiết kế API và mô hình dữ liệu, đảm bảo sự đồng bộ và nhất quán giữa frontend và backend.",
+          "Áp dụng kiến trúc module, chuẩn clean code và thiết kế API rõ ràng nhằm đảm bảo khả năng mở rộng, dễ bảo trì và ổn định lâu dài của hệ thống."
+        ],
+        "technologies": [
+          "Vue.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Yup",
+          "Scss",
+          "Pinia",
+          "Nestjs",
+          "PostgreSQL",
+          "TypeORM",
+          "JWT"
+        ]
+      }
+    ]
+  },
   "skills": {
     "title": "Kỹ năng",
     "technical": "Kỹ năng chuyên môn",

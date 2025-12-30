@@ -62,6 +62,120 @@
       }
     ]
   },
+  "project": {
+    "practicalExperience": "Practical Experience",
+    "titleFirst": "Featured",
+    "titleSecond": "Projects",
+    "description": "Delivering scalable web solutions and intuitive user experiences.",
+    "subDescription": "Here are a few projects that define my technical journey.",
+    "projects": [
+      {
+        "title": "Scout TechFul",
+        "subTitle": "Japanese Job Platform",
+        "dateTime": "Apr 2025 - Oct 2025",
+        "company": "Freelance project",
+        "description": "A high-performance job search platform specifically for the Japanese market. The project focuses on a smooth search experience and optimized SEO capabilities.",
+        "features": [
+          "System architecture with Nuxt 3 ensures SEO and SSR (Server-Side Rendering).",
+          "Complex state management (search filters, applications) using Pinia.",
+          "Reduces runtime errors by closely applying TypeScript.",
+          "Modern and user-friendly interface design with Tailwind CSS.",
+          "Performance analysis and optimization using techniques such as code splitting and lazy loading."
+        ],
+        "technologies": [
+          "Nuxt 3",
+          "Pinia",
+          "TypeScript",
+          "Tailwind CSS",
+          "VeeValidate",
+          "TinyMCE",
+          "Swiper",
+          "Vuetify",
+          "Yup"
+        ]
+      },
+      {
+        "title": "Carrotcake",
+        "subTitle": "Al Social Media Manager",
+        "dateTime": "Sep 2023 - Feb 2025",
+        "company": "PRODUCT @ NAPA GLOBAL",
+        "description": "Built an AI-powered SaaS platform for automated content creation and social media scheduling (Facebook & Instagram).",
+        "features": [
+          "Integrated OpenAI API with a FastAPI backend to deliver intelligent content generation and recommendations.",
+          "Implemented a drag-and-drop scheduling system using Next.js for seamless post management.",
+          "Developed an automated scheduling workflow to publish posts at optimal times.",
+          "Designed a clean, modern UI with Tailwind CSS to enhance usability and user experience."
+        ],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "React hook form",
+          "Context API",
+          "Yup",
+          "Scss"
+        ]
+      },
+      {
+        "title": "Napa-tools",
+        "subTitle": "Internal Company Management Platform",
+        "dateTime": "Sep 2023 - Feb 2025",
+        "company": "PRODUCT @ NAPA GLOBAL",
+        "description": "An internal enterprise management platform that helps companies manage employees, projects, schedules, and operational workflows in a centralized system.",
+        "features": [
+          "Developed modules for HR management, project tracking, meeting room booking, and accounting operations.",
+          "IImplemented employee attendance tracking, work schedules (on/off), late check-ins, and request/approval workflows.",
+          "Built a responsive and reusable frontend using React.",
+          "Designed and implemented a scalable backend with NestJS and PostgreSQL.",
+          "Ensured secure, maintainable architecture with role-based access control and clean API design."
+        ],
+        "technologies": [
+          "React",
+          "Scss",
+          "React hook form",
+          "Zustand",
+          "React router",
+          "React query",
+          "Ant Design",
+          "TypeScript",
+          "Tailwind CSS",
+          "React big calendar",
+          "Yup",
+          "NestJS",
+          "PostgreSQL",
+          "TypeORM",
+          "Redis",
+          "JWT"
+        ]
+      },
+      {
+        "title": "Trainix",
+        "subTitle": "Transportation Training Management Platform",
+        "dateTime": "Apr 2025 - Oct 2025",
+        "company": "Freelance project",
+        "description": "A web-based platform designed to support transportation training and education management, helping organizations manage courses, learners, and training-related processes efficiently.",
+        "features": [
+          "Developed a modern and reusable frontend using Vue.js, focusing on clean UI structure and smooth user experience.",
+          "Designed and implemented the backend using NestJS, handling business logic, data flow, and API architecture.",
+          "Built core features for managing training courses, learners, and related educational data.",
+          "Designed APIs and data models, ensuring consistent data structures between frontend and backend.",
+          "Applied modular architecture, clean code practices, and well-structured API design to ensure scalability, maintainability, and long-term system stability."
+        ],
+        "technologies": [
+          "Vue.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Yup",
+          "Scss",
+          "Pinia",
+          "Nestjs",
+          "PostgreSQL",
+          "TypeORM",
+          "JWT"
+        ]
+      }
+    ]
+  },
   "skills": {
     "title": "Skills",
     "technical": "Technical Skills",

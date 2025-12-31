@@ -165,50 +165,130 @@
     ]
   },
   "skills": {
-    "title": "Kỹ năng",
-    "technical": "Kỹ năng chuyên môn",
-    "technicalList": [
-      "Ngôn ngữ: Javascript, TypeScript",
-      "Frameworks: (Reactjs), Nextjs, (Vuejs 3), Nuxt 3, Nodejs, Nestjs",
-      "Cơ sở dữ liệu: NoSQL(MongoDB), SQL(Postgres)",
-      "Quản lý phiên bản: Git",
-      "REST API"
-    ],
-    "additional": "Kỹ năng bổ sung",
-    "additionalList": [
-      "Figma (dành cho developer)",
-      "Kỹ năng nghiên cứu và giải quyết vấn đề",
-      "Postman",
-      "Swagger",
-      "Type ORM",
-      "Docker",
-      "AWS, Firebase, Google Cloud Console"
-    ],
-    "soft": "Kỹ năng mềm",
-    "softList": ["Làm việc nhóm", "Làm việc độc lập", "Quản lý thời gian"]
+    "myStack": "Kỹ Năng",
+    "title": "Năng lực chuyên môn",
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        {
+          "title": "Ngôn ngữ chính",
+          "list": "JavaScript, TypeScript"
+        },
+        {
+          "title": "Hệ sinh thái React",
+          "list": "React.js, Next.js (App Router), Redux, React Query, React Hook Form, React Router, Zustand, React big calendar, React Select"
+        },
+        {
+          "title": "Hệ sinh thái Vue",
+          "list": "Vue 3, Nuxt 3, Pinia, Vuetify, VeeValidate, Swiper"
+        },
+        {
+          "title": "Giao diện & Styling",
+          "list": "Tailwind CSS, SCSS, Styled component, Figma (cho Dev)"
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "items": [
+        {
+          "title": "Runtime & Frameworks",
+          "list": "Node.js, NestJS, Express"
+        },
+        {
+          "title": "Cơ sở dữ liệu",
+          "list": "PostgreSQL, MongoDB"
+        },
+        {
+          "title": "Dịch vụ đám mây",
+          "list": "AWS (EC2, S3), Firebase, Google Cloud (OAuth2)"
+        },
+        {
+          "title": "DevOps & Công cụ khác",
+          "list": "Docker, Git, Postman, Jest, Jira, Trello"
+        }
+      ]
+    },
+    "methodologies": {
+      "title": "Phương pháp & Khác",
+      "items": [
+        {
+          "title": "Quy trình & Tiêu chuẩn",
+          "list": "Agile/Scrum, Nguyên lý Clean Code, Thiết kế RESTful API"
+        },
+        {
+          "title": "Ngôn ngữ",
+          "list": "Tiếng Anh (Đọc tài liệu kỹ thuật), Tiếng Việt (Bản ngữ)"
+        }
+      ]
+    },
+    "softSkills": {
+      "title": "Kỹ năng mềm",
+      "items": [
+        "Khả năng giải quyết vấn đề tốt",
+        "Làm việc nhóm",
+        "Thích nghi nhanh",
+        "Tự học nhanh",
+        "Quản lý thời gian hiệu quả",
+        "Tỉ mỉ"
+      ]
+    }
   },
   "experience": {
-    "title": "Kinh nghiệm",
+    "title": "Hành trình sự nghiệp",
+    "subtitle": "Kinh nghiệm thực tế",
+    "totalExp": "3+ Năm",
     "list": [
       {
-        "company": "Napa Global",
-        "role": "Lập trình viên Web",
-        "period": "Hơn 1 năm",
-        "description": "Phát triển và bảo trì Full stack."
+        "role": "Frontend Developer",
+        "company": "Freelance Project • Scout TechFul",
+        "period": "2025",
+        "type": "Remote",
+        "description": "Phát triển nền tảng tìm kiếm việc làm lưu lượng cao dành cho thị trường Nhật Bản. Tập trung tối ưu hóa SEO và quản lý trạng thái phức tạp cho hệ thống lọc công việc.",
+        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
+        "color": "indigo"
       },
       {
-        "company": "FPT Software (Fsoft)",
-        "role": "Lập trình viên",
-        "period": "6 tháng",
-        "description": "Tham gia các dự án phát triển phần mềm."
+        "role": "Full-stack Developer",
+        "company": "Napa Global",
+        "period": "2023 - 2025",
+        "type": "Đà Nẵng",
+        "projects": [
+          {
+            "title": "Dự án: Carrotcake (AI SaaS)",
+            "description": "Xây dựng công cụ quản lý mạng xã hội tích hợp AI. Triển khai engine gợi ý nội dung thông qua OpenAI API và tính năng lên lịch kéo thả.",
+            "stack": ["Next.js", "TypeScript", "OpenAI"]
+          },
+          {
+            "title": "Dự án: Napa-tools (Internal ERP)",
+            "description": "Thiết kế kiến trúc hệ thống quản lý nội bộ (Nhân sự, Đặt phòng, Kế toán). Thiết kế schema cơ sở dữ liệu và RESTful API cho luồng dữ liệu an toàn.",
+            "stack": ["React", "NestJS", "PostgreSQL"]
+          }
+        ],
+        "color": "emerald"
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Freelance Project • Trainix",
+        "period": "2023",
+        "type": "Remote",
+        "description": "Phát triển nền tảng quản lý đào tạo, tập trung vào giao diện trực quan và trải nghiệm người dùng tối ưu cho học viên và giảng viên.",
+        "technologies": ["React", "Redux", "Material UI"],
+        "color": "orange"
       }
     ]
   },
   "contact": {
-    "title": "Liên hệ",
-    "email": "Email",
-    "phone": "Điện thoại",
-    "github": "Github",
-    "address": "Địa chỉ"
+    "title": "Sẵn sàng bắt đầu dự án mới?",
+    "description": "Tôi hiện đang tìm kiếm cơ hội mới và sự hợp tác.\nHãy liên hệ nếu bạn có câu hỏi hoặc chỉ muốn gửi lời chào.",
+    "email": "mannjneff@gmail.com",
+    "status": "Sẵn sàng cho dự án mới",
+    "links": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "resume": "Resume"
+    },
+    "phone": "+84 985 953 178",
+    "copyright": "© {year} Võ Mạnh Quân. Đã đăng ký bản quyền."
   }
 }

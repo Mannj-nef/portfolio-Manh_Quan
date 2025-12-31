@@ -48,3 +48,53 @@ export interface IProjects {
     technologies: string[]
   }[]
 }
+
+export interface ISkillCategory {
+  title: string
+  list: string
+}
+
+export interface ISkills {
+  myStack: string
+  title: string
+  frontend: {
+    title: string
+    items: ISkillCategory[]
+  }
+  backend: {
+    title: string
+    items: ISkillCategory[]
+  }
+  methodologies: {
+    title: string
+    items: ISkillCategory[]
+  }
+  softSkills: {
+    title: string
+    items: string[]
+  }
+}
+
+export interface IJobProject {
+  title: string
+  description: string
+  stack: string[]
+}
+
+export interface IJob {
+  role: string
+  company: string
+  period: string
+  type: string
+  description?: string
+  technologies?: string[]
+  projects?: IJobProject[]
+  color: string
+}
+
+export interface IExperience {
+  title: string
+  subtitle: string
+  totalExp: string
+  list: IJob[]
+}

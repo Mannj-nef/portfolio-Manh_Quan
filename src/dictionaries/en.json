@@ -177,50 +177,130 @@
     ]
   },
   "skills": {
-    "title": "Skills",
-    "technical": "Technical Skills",
-    "technicalList": [
-      "Languages: Javascript, TypeScript",
-      "Frameworks: (Reactjs), Nextjs, (Vuejs 3), Nuxt 3, Nodejs, Nestjs",
-      "Database: NoSQL(MongoDB), SQL(Postgres)",
-      "Version Control: Git",
-      "REST API"
-    ],
-    "additional": "Additional Skills",
-    "additionalList": [
-      "Figma (for developer)",
-      "Research and resolve issues skill",
-      "Postman",
-      "Swagger",
-      "Type ORM",
-      "Docker",
-      "AWS, Firebase, Google Cloud Console"
-    ],
-    "soft": "Soft Skills",
-    "softList": ["Team work", "Work independently", "Time Management"]
+    "myStack": "My Stack",
+    "title": "Technical Proficiency",
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        {
+          "title": "Core Languages",
+          "list": "JavaScript, TypeScript"
+        },
+        {
+          "title": "React Ecosystem",
+          "list": "React.js, Next.js (App Router), Redux, React Query, React Hook Form, React Router, Zustand, React big calendar, React Select"
+        },
+        {
+          "title": "Vue Ecosystem",
+          "list": "Vue 3, Nuxt 3, Pinia, Vuetify, VeeValidate, Swiper"
+        },
+        {
+          "title": "UI & Styling",
+          "list": "Tailwind CSS, SCSS, Styled component, Figma (for Dev)"
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "items": [
+        {
+          "title": "Runtime & Frameworks",
+          "list": "Node.js, NestJS, Express"
+        },
+        {
+          "title": "Databases",
+          "list": "PostgreSQL, MongoDB"
+        },
+        {
+          "title": "Cloud Services",
+          "list": "AWS (EC2, S3), Firebase, Google Cloud (OAuth2)"
+        },
+        {
+          "title": "DevOps & Tools",
+          "list": "Docker, Git, Postman, Jest, Jira, Trello"
+        }
+      ]
+    },
+    "methodologies": {
+      "title": "Methodologies & Others",
+      "items": [
+        {
+          "title": "Workflow & Standards",
+          "list": "Agile/Scrum, Clean Code Principles, RESTful API Design"
+        },
+        {
+          "title": "Languages",
+          "list": "English (Reading Technical Documentation), Vietnamese (Native)"
+        }
+      ]
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "items": [
+        "Problem Solving",
+        "Team Collaboration",
+        "Adaptability",
+        "Self-learning",
+        "Time Management",
+        "Attention to Detail"
+      ]
+    }
   },
   "experience": {
-    "title": "Experience",
+    "title": "Professional Journey",
+    "subtitle": "Work Experience",
+    "totalExp": "3+ Years",
     "list": [
       {
-        "company": "Napa Global",
-        "role": "Web Developer",
-        "period": "Over 1 year",
-        "description": "Full stack development and maintenance."
+        "role": "Frontend Developer",
+        "company": "Freelance Project • Scout TechFul",
+        "period": "2025",
+        "type": "Remote",
+        "description": "Developed a high-traffic job search platform tailored for the Japanese market. Focused on SEO optimization and complex state management for job filtering systems.",
+        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
+        "color": "indigo"
       },
       {
-        "company": "FPT Software (Fsoft)",
-        "role": "Developer",
-        "period": "6 months",
-        "description": "Participated in software development projects."
+        "role": "Full-stack Developer",
+        "company": "Napa Global",
+        "period": "2023 - 2025",
+        "type": "Da Nang",
+        "projects": [
+          {
+            "title": "Project: Carrotcake (AI SaaS)",
+            "description": "Built an AI-integrated social media management tool. Implemented content suggestion engine via OpenAI API and drag-and-drop scheduling features.",
+            "stack": ["Next.js", "TypeScript", "OpenAI"]
+          },
+          {
+            "title": "Project: Napa-tools (Internal ERP)",
+            "description": "Architected the internal management system (HR, Booking, Accounting). Designed database schema and RESTful APIs for secure data flow.",
+            "stack": ["React", "NestJS", "PostgreSQL"]
+          }
+        ],
+        "color": "emerald"
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Freelance Project • Trainix",
+        "period": "2023",
+        "type": "Remote",
+        "description": "Developed a training management platform, focusing on intuitive interfaces and optimized user experiences for students and instructors.",
+        "technologies": ["React", "Redux", "Material UI"],
+        "color": "orange"
       }
     ]
   },
   "contact": {
-    "title": "Contact",
-    "email": "Email",
-    "phone": "Phone",
-    "github": "Github",
-    "address": "Address"
+    "title": "Ready to start a project?",
+    "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question or just want to say hi.",
+    "email": "mannjneff@gmail.com",
+    "status": "Available for new projects",
+    "links": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "resume": "Resume"
+    },
+    "phone": "+84 985 953 178",
+    "copyright": "© {year} Vo Manh Quan. All Rights Reserved."
   }
 }

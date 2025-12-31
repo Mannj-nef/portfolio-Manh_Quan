@@ -92,14 +92,14 @@ export default async function RootLayout({
   return (
     <html lang={lang} suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${fraunces.variable} min-h-screen bg-background text-foreground antialiased font-sans`}
+        className={`${inter.variable} ${fraunces.variable} min-h-screen bg-background text-foreground antialiased font-sans overflow-x-hidden`}
       >
         <Providers>
           <AnimatedBackground />
           <div className="flex min-h-screen flex-col relative">
             <Header lang={lang as Locale} dict={dictionary.nav} />
             <main className="flex-1">{children}</main>
-            <Footer />
+            <Footer copyright={dictionary.contact.copyright} />
           </div>
         </Providers>
       </body>

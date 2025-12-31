@@ -10,14 +10,12 @@ import 'swiper/css/navigation'
 export const SWIPER_MODULES = [Navigation, Pagination, Autoplay, FreeMode]
 
 export const DEFAULT_SWIPER_OPTIONS: SwiperOptions = {
-  slidesPerView: 5,
+  slidesPerView: 'auto',
   spaceBetween: 16,
   loop: false,
   speed: 600,
   grabCursor: true,
-  pagination: {
-    clickable: false,
-  },
+  pagination: {},
   navigation: false,
   autoplay: false,
 }
@@ -34,7 +32,7 @@ const SwiperBase = ({ options, children, className }: SwiperBaseProps) => {
       modules={SWIPER_MODULES}
       {...DEFAULT_SWIPER_OPTIONS}
       {...options}
-      className={clsx('base-swiper', className)}
+      className={clsx('', className)}
     >
       {children}
     </Swiper>

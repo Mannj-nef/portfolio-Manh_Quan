@@ -28,6 +28,11 @@ export const IconNames = {
   typescript: 'typescript',
   veevalidate: 'veevalidate',
   vuetify: 'vuetify',
+  figma: 'figma',
+  mongodb: 'mongodb',
+  javaScript: 'javaScript',
+  styledcomponents: 'styledcomponents',
+  aws: 'aws',
 }
 
 const IconBase = ({ name, className = '' }: IconProps) => {

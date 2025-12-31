@@ -1,10 +1,13 @@
-export function Footer() {
+export function Footer({ copyright }: { copyright?: string }) {
+  const currentYear = new Date().getFullYear()
+  const text = copyright
+    ? copyright.replace('{year}', currentYear.toString())
+    : `© ${currentYear} Vo Manh Quan. All rights reserved.`
+
   return (
-    <footer className="border-t py-6 md:px-8 md:py-0">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-        <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-          © {new Date().getFullYear()} Vo Manh Quan. All rights reserved.
-        </p>
+    <footer className="bg-background py-8 border-t border-border">
+      <div className="container mx-auto flex items-center justify-center">
+        <p className="text-center text-sm text-muted-foreground">{text}</p>
       </div>
     </footer>
   )

@@ -24,13 +24,13 @@ const mainColor: Record<string, string> = {
 export function Projects({ dict }: Project) {
   return (
     <section id="portfolio" className="py-24 bg-muted/20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto  px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16 flex flex-col md:flex-row justify-between items-end gap-4"
+          className="mb-16 flex flex-col md:flex-row justify-between gap-4"
         >
           <div className="flex flex-col gap-2">
             <HeadingSection
@@ -40,7 +40,7 @@ export function Projects({ dict }: Project) {
               isIndigoColor={true}
             />
           </div>
-          <p className="text-muted-foreground whitespace-pre-line text-right hidden md:block">
+          <p className="text-muted-foreground whitespace-pre-line text-right hidden md:block mt-auto">
             {dict.description}
             <br />
             {dict.subDescription}
@@ -58,10 +58,10 @@ export function Projects({ dict }: Project) {
               style={
                 { '--accent': mainColor[project.company] } as CSSProperties
               }
-              className="shadow-lg rounded-2xl p-6 bg-card flex flex-col gap-6"
+              className="shadow-lg rounded-2xl p-4 md:p-6 bg-card flex flex-col gap-6 w-full overflow-hidden"
             >
               <div>
-                <div className="flex gap-2 items-center text-xs mb-2">
+                <div className="flex flex-wrap gap-2 items-center text-xs mb-2">
                   <p className="text-[color:var(--accent)] px-4 py-1 rounded-full bg-[color-mix(in_srgb,var(--accent)_20%,transparent)] font-semibold uppercase">
                     {project.company}
                   </p>
@@ -69,7 +69,7 @@ export function Projects({ dict }: Project) {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold mb">{project.title}</h3>
+                  <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
 
                   <p className="font-bold text-muted-foreground text-xl">
                     {project.subTitle}
@@ -86,8 +86,8 @@ export function Projects({ dict }: Project) {
                   </ul>
                 </div>
               </div>
-              <div className="mt-auto w-full max-w-full overflow-hidden">
-                <SwiperBase options={TECH_SWIPER_OPTIONS} className="w-full">
+              <div className="mt-auto">
+                <SwiperBase options={TECH_SWIPER_OPTIONS}>
                   {project.technologies.map((tech) => (
                     <SwiperSlide
                       key={tech}

@@ -42,19 +42,25 @@ const SECTION_CONFIG: SkillSectionConfig[] = [
 
 export function Skills({ dict }: { dict: ISkills }) {
   return (
-    <section id="skills" className="py-24 bg-background">
+    <section id="skills" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        <div className="mb-16 space-y-4">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mb-16 space-y-4"
+        >
           <HeadingSection
             title={dict.title}
             become={dict.myStack}
             subtitle={''}
             isIndigoColor={false}
           />
-        </div>
+        </motion.div>
 
         <div className="grid gap-12 md:grid-cols-2">
-          {SECTION_CONFIG.map((section) => {
+          {SECTION_CONFIG.map((section, index) => {
             const sectionData = dict[section.key as keyof ISkills]
 
             // Skip if data is missing or not in expected format

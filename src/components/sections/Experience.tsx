@@ -3,10 +3,11 @@
 import { motion } from 'framer-motion'
 import { IExperience } from '~/types'
 import { cn } from '~/lib/utils'
+import { Building, Globe } from 'lucide-react'
 
 export function Experience({ dict }: { dict: IExperience }) {
   return (
-    <section id="experience" className="py-24 overflow-hidden">
+    <section id="experience" className="py-16 md:py-24 overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-4">
@@ -24,10 +25,9 @@ export function Experience({ dict }: { dict: IExperience }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl md:text-5xl font-bold flex flex-wrap gap-2 items-baseline"
+              className="text-4xl md:text-5xl font-bold flex flex-wrap gap-2 items-baseline font-serif"
             >
-              First{' '}
-              <span className="text-muted-foreground/60">{dict.subtitle}</span>
+              <span className="">{dict.subtitle}</span>
             </motion.h2>
           </div>
 
@@ -35,7 +35,7 @@ export function Experience({ dict }: { dict: IExperience }) {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="bg-card/50 border border-muted-foreground/20 px-4 py-2 rounded-lg"
+            className="bg-card/50 border border-muted-foreground/20 px-4 py-2 rounded-[10px]"
           >
             <span className="text-muted-foreground font-mono">
               Total Exp:{' '}
@@ -45,8 +45,22 @@ export function Experience({ dict }: { dict: IExperience }) {
         </div>
 
         {/* Timeline */}
-        <div className="relative border-l-2 border-muted-foreground/20 ml-3 md:ml-6 space-y-12">
+        <div className="relative border-muted-foreground/20 ml-3 md:ml-6 space-y-12">
           {dict.list.map((job, index) => {
+            const textClass =
+              job.color === 'indigo'
+                ? 'text-indigo-500'
+                : job.color === 'emerald'
+                ? 'text-emerald-500'
+                : 'text-orange-500'
+
+            const bgClass =
+              job.color === 'indigo'
+                ? 'bg-indigo-500/20'
+                : job.color === 'emerald'
+                ? 'bg-emerald-500/20'
+                : 'bg-orange-500/20'
+
             const colorClass =
               job.color === 'indigo'
                 ? 'text-indigo-500 bg-indigo-500'
@@ -61,6 +75,9 @@ export function Experience({ dict }: { dict: IExperience }) {
                 ? 'border-emerald-500/20'
                 : 'border-orange-500/20'
 
+            const IconComponent =
+              job.company === 'Freelancer' ? Globe : Building
+
             return (
               <motion.div
                 key={index}
@@ -68,25 +85,31 @@ export function Experience({ dict }: { dict: IExperience }) {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="relative pl-8 md:pl-12"
+                className="relative pl-8 md:pl-12 border-l-2 border-muted-foreground/20"
               >
                 {/* Timeline Dot */}
                 <div
                   className={cn(
-                    'absolute -left-[9px] top-0 w-5 h-5 rounded-full border-4 border-background',
+                    'absolute -left-[11px] top-0 w-5 h-5 rounded-full border-4 border-background',
                     colorClass
                   )}
                 />
 
                 {/* Date Label */}
-                <span
-                  className={cn(
-                    'absolute -top-8 left-0 md:-left-24 font-bold font-mono text-sm',
-                    colorClass.split(' ')[0]
-                  )}
-                >
-                  {job.period}
-                </span>
+                <div className="flex lg:flex-col items-center gap-2 lg:gap-0 lg:items-end absolute -top-8 -left-1 lg:-left-24 text-right">
+                  <span
+                    className={cn(
+                      'font-bold font-mono text-sm',
+                      colorClass.split(' ')[0]
+                    )}
+                  >
+                    {job.period}
+                  </span>
+
+                  <span className="border-l px-2 lg:border-0 lg:px-0 text-muted-foreground/70 font-mono text-xs">
+                    {job.timeDuration}
+                  </span>
+                </div>
 
                 {/* Card */}
                 <div
@@ -96,16 +119,31 @@ export function Experience({ dict }: { dict: IExperience }) {
                   )}
                 >
                   <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
-                    <div>
-                      <h3 className="text-2xl font-bold">{job.role}</h3>
-                      <p className="text-muted-foreground">{job.company}</p>
+                    <div className="flex items-start md:items-center gap-4">
+                      <div
+                        className={cn(
+                          'hidden md:flex items-center justify-center p-3 rounded-[10px]',
+                          bgClass
+                        )}
+                      >
+                        <IconComponent className={cn('w-6 h-6', textClass)} />
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold">{job.company}</h3>
+                        <p className="text-muted-foreground">{job.role}</p>
+                      </div>
                     </div>
-                    <span className="px-3 py-1 rounded text-xs font-mono bg-muted text-muted-foreground border border-border">
+
+                    <div className="px-3 py-1 mx-full rounded text-xs font-mono bg-muted text-muted-foreground border border-border">
                       {job.type}
-                    </span>
+                    </div>
                   </div>
 
-                  {job.projects ? (
+                  <div className="lg:ml-14">
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      {job.description}
+                    </p>
+
                     <div className="space-y-6 mt-6">
                       {job.projects.map((project, pIndex) => (
                         <div
@@ -121,16 +159,24 @@ export function Experience({ dict }: { dict: IExperience }) {
                             ></span>
                             {project.title}
                           </h4>
+
+                          {project.role && project.client ? (
+                            <p className="text-sm text-card-foreground mb-2">
+                              {project.role} • {project.client}
+                            </p>
+                          ) : null}
+
                           <p className="text-muted-foreground mb-3 text-sm leading-relaxed">
                             {project.description}
                           </p>
+
                           <div className="flex flex-wrap gap-2 text-xs font-mono text-muted-foreground">
                             <span>Stack:</span>
                             {project.stack.map((tech) => (
                               <span
                                 key={tech}
                                 className={cn(
-                                  'transition-colors hover:text-foreground cursor-default',
+                                  'transition-colors cursor-default',
                                   colorClass.split(' ')[0]
                                 )}
                               >
@@ -141,25 +187,7 @@ export function Experience({ dict }: { dict: IExperience }) {
                         </div>
                       ))}
                     </div>
-                  ) : (
-                    <>
-                      <p className="text-muted-foreground mb-6 leading-relaxed">
-                        {job.description}
-                      </p>
-                      {job.technologies && (
-                        <div className="flex flex-wrap gap-2">
-                          {job.technologies.map((tech) => (
-                            <span
-                              key={tech}
-                              className="px-3 py-1 rounded-md bg-muted/50 border border-border text-xs font-medium text-muted-foreground"
-                            >
-                              {tech}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  )}
+                  </div>
                 </div>
               </motion.div>
             )

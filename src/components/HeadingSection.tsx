@@ -20,14 +20,14 @@ const HeadingSection = ({
           }`}
         ></span>
         <span
-          className={`uppercase font-semibold ${
+          className={`uppercase font-semibold  ${
             isIndigoColor ? 'text-indigo' : 'text-emerald'
           }`}
         >
           {subtitle}
         </span>
       </div>
-      <h2 className="text-4xl font-bold font-serif tracking-tight">
+      <h2 className="text-4xl font-bold font-serif tracking-tight -mt-2">
         <span className="mb-1 block">{become}</span>
         <p className={`${isIndigoColor ? 'text-indigo' : 'text-emerald'} `}>
           {title}

@@ -32,12 +32,12 @@ const TECH_STACK = [
 
 export function TechStackMarquee() {
   return (
-    <div className="w-full py-12 border-t border-border/50">
-      <SwiperBase options={MARQUEE_SWIPER_OPTIONS} className="tech-marquee">
+    <div className="w-full py-8 border-t border-border/50">
+      <SwiperBase options={MARQUEE_SWIPER_OPTIONS} className="">
         {TECH_STACK.map((tech, index) => (
-          <SwiperSlide key={index} style={{ width: 'auto' }}>
-            <div className="flex items-center justify-center transition-all duration-300 px-4 md:px-8">
-              <div className="relative w-10 h-10">
+          <SwiperSlide key={index} style={{ width: 'auto' }} className="p-3">
+            <div className="flex items-center justify-center transition-all duration-300 p-3 hover:scale-120">
+              <div className=" w-8 h-8">
                 <IconBase name={tech} className="w-full h-full" />
               </div>
             </div>

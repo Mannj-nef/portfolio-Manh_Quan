@@ -77,6 +77,8 @@ export interface ISkills {
 
 export interface IJobProject {
   title: string
+  role?: string
+  client?: string
   description: string
   stack: string[]
 }
@@ -85,10 +87,11 @@ export interface IJob {
   role: string
   company: string
   period: string
+  timeDuration: string
   type: string
   description?: string
   technologies?: string[]
-  projects?: IJobProject[]
+  projects: IJobProject[]
   color: string
 }
 

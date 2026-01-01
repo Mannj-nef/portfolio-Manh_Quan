@@ -10,7 +10,7 @@
     "name": "Võ Mạnh Quân",
     "introduction": "tôi là",
     "role": "Lập trình viên Web",
-    "description": "Tôi là một kỹ sư phần mềm với trách nhiệm chính trong việc thiết kế và phát triển ứng dụng, phần mềm chủ yếu bằng ngôn ngữ lập trình JavaScript. Tôi có hơn 3 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, bao gồm việc xây dựng, bảo trì hệ thống và phân tích yêu cầu cho các dự án freelance cũng như khi làm việc tại công ty.",
+    "description": "Tôi là một kỹ sư phần mềm với trách nhiệm chính trong việc thiết kế và phát triển ứng dụng phần mềm, chủ yếu bằng ngôn ngữ lập trình JavaScript. Tôi có hơn 3 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, bao gồm việc xây dựng, bảo trì hệ thống và phân tích yêu cầu cho các dự án freelancer cũng như khi làm việc tại công ty.",
     "greeting": "Xin chào",
     "myCV": "CV của tôi",
     "contactMe": "Liên hệ"
@@ -62,7 +62,7 @@
         "title": "Scout TechFul",
         "subTitle": "Nền tảng việc làm Nhật Bản",
         "dateTime": "4/2025 -  10/2025",
-        "company": "Freelance project",
+        "company": "Freelancer project",
         "description": "Một nền tảng tìm kiếm việc làm hiệu suất cao dành riêng cho thị trường Nhật Bản. Dự án tập trung vào trải nghiệm tìm kiếm mượt mà và khả năng SEO tối ưu.",
         "features": [
           "Kiến trúc hệ thống với Nuxt 3 đảm bảo SEO và SSR (Server-Side Rendering).",
@@ -107,7 +107,7 @@
       {
         "title": "Napa-tools",
         "subTitle": "Hệ thống quản lý nội bộ doanh nghiệp",
-        "dateTime": "Sep 2023 - Feb 2025",
+        "dateTime": "9/2023 - 2/2025",
         "company": "PRODUCT @ NAPA GLOBAL",
         "description": "Nền tảng quản lý nội bộ giúp doanh nghiệp theo dõi nhân sự, dự án, lịch làm việc và các quy trình vận hành trong một hệ thống tập trung.",
         "features": [
@@ -139,8 +139,8 @@
       {
         "title": "Trainix",
         "subTitle": "Nền tảng quản lý đào tạo lĩnh vực giao thông – vận tải",
-        "dateTime": "Apr 2025 - Oct 2025",
-        "company": "Freelance project",
+        "dateTime": "4/2023 - 10/2025",
+        "company": "Freelancer project",
         "description": "Một ứng dụng web phục vụ cho việc quản lý đào tạo và giảng dạy trong lĩnh vực giao thông – vận tải, giúp tổ chức theo dõi khóa học, học viên và các quy trình đào tạo một cách hiệu quả.",
         "features": [
           "Phát triển giao diện người dùng bằng Vue.js, tập trung vào cấu trúc rõ ràng, khả năng tái sử dụng và trải nghiệm mượt mà.",
@@ -236,23 +236,16 @@
   },
   "experience": {
     "title": "Hành trình sự nghiệp",
-    "subtitle": "Kinh nghiệm thực tế",
+    "subtitle": "Lịch sử làm việc",
     "totalExp": "3+ Năm",
     "list": [
       {
-        "role": "Frontend Developer",
-        "company": "Freelance Project • Scout TechFul",
-        "period": "2025",
-        "type": "Remote",
-        "description": "Phát triển nền tảng tìm kiếm việc làm lưu lượng cao dành cho thị trường Nhật Bản. Tập trung tối ưu hóa SEO và quản lý trạng thái phức tạp cho hệ thống lọc công việc.",
-        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
-        "color": "indigo"
-      },
-      {
-        "role": "Full-stack Developer",
+        "role": "Full-stack Developer • Junior level",
         "company": "Napa Global",
         "period": "2023 - 2025",
+        "timeDuration": "1 năm 6 tháng",
         "type": "Đà Nẵng",
+        "description": "Môi trường Product & Outsourcing chuyên nghiệp. Đây là nơi tôi trưởng thành nhất về tư duy hệ thống và quy trình làm việc nhóm (Teamwork).",
         "projects": [
           {
             "title": "Dự án: Carrotcake (AI SaaS)",
@@ -268,19 +261,55 @@
         "color": "emerald"
       },
       {
-        "role": "Frontend Developer",
-        "company": "Freelance Project • Trainix",
+        "role": "Web Developer • Technical Partner",
+        "company": "Freelancer",
         "period": "2023",
+        "timeDuration": "",
         "type": "Remote",
-        "description": "Phát triển nền tảng quản lý đào tạo, tập trung vào giao diện trực quan và trải nghiệm người dùng tối ưu cho học viên và giảng viên.",
+        "description": "Chuyển đổi sang mô hình làm việc độc lập với vai trò đối tác kỹ thuật (Technical Partner), phát triển các dự án web tùy chỉnh theo yêu cầu khách hàng.",
+        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
+        "projects": [
+          {
+            "title": "Dự án: Scout TechFul",
+            "role": "FullStack Developer",
+            "client": "Khách hàng Nhật Bản",
+            "description": "Xây dựng nền tảng tìm kiếm việc làm hiệu suất cao dành riêng cho thị trường Nhật Bản. Dự án tập trung vào trải nghiệm tìm kiếm mượt mà và khả năng SEO tối ưu.",
+            "stack": ["Nuxt 3", "Pinia", "TypeScript"]
+          },
+          {
+            "title": "Dự án: Trainix",
+            "role": "FullStack Developer",
+            "client": "Khách hàng Mỹ",
+            "description": "Phát triển nền tảng quản lý đào tạo lĩnh vực giao thông – vận tải, giúp tổ chức theo dõi khóa học, học viên và các quy trình đào tạo một cách hiệu quả.",
+            "stack": ["Vue.js", "NestJS", "PostgreSQL"]
+          }
+        ],
+        "color": "indigo"
+      },
+      {
+        "role": "Frontend Developer •  Thực tập sinh",
+        "company": "FPT Software",
+        "period": "2022",
+        "timeDuration": "3 tháng",
+        "type": "Da Nang",
+        "description": "",
         "technologies": ["React", "Redux", "Material UI"],
+        "projects": [
+          {
+            "title": "Dự án:",
+            "role": "Frontend Developer",
+            "client": "Khách hàng Hàn Quốc",
+            "description": "Đã đóng góp vào việc phát triển nền tảng thông tin tài chính kỹ thuật số, tập trung vào việc cải tiến giao diện người dùng và các tính năng tương tác.",
+            "stack": ["React", "Redux", "typeScript"]
+          }
+        ],
         "color": "orange"
       }
     ]
   },
   "contact": {
     "title": "Sẵn sàng bắt đầu dự án mới?",
-    "description": "Tôi hiện đang tìm kiếm cơ hội mới và sự hợp tác.\nHãy liên hệ nếu bạn có câu hỏi hoặc chỉ muốn gửi lời chào.",
+    "description": "Tôi hiện đang tìm kiếm cơ hội mới và sự hợp tác.\nHãy liên hệ nếu bạn có câu hỏi.",
     "email": "mannjneff@gmail.com",
     "status": "Sẵn sàng cho dự án mới",
     "links": {

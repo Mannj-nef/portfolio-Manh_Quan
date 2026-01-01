@@ -8,7 +8,7 @@ import { IHero } from '~/types'
 
 export function Hero({ dict }: { dict: IHero }) {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative pt-16 md:py-24 overflow-hidden">
       <div className="container mx-auto px-4 gap-8 flex flex-col md:flex-row">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,7 +50,7 @@ export function Hero({ dict }: { dict: IHero }) {
               className="group flex flex-col items-center gap-3 transition-colors hover:text-primary"
             >
               <Button
-                className="cursor-pointer flex items-center gap-2 rounded-md"
+                className="cursor-pointer flex items-center gap-2 rounded-[10px]"
                 size="sm"
               >
                 <BookText className="h-4 w-4" />

@@ -10,7 +10,7 @@
     "name": "Vo Manh Quan",
     "introduction": "I'm",
     "role": "Web Developer",
-    "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript. I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
+    "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript. I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both r projects and company-based work.",
     "greeting": "Hello",
     "myCV": "Resume",
     "contactMe": "Contact Me"
@@ -21,7 +21,7 @@
       "Worked at Napa Global for over a year (now)",
       "Worked FPT Software (Fsoft) for 6 months",
       "Graduated in Frontend programming at IViettech programming center",
-      "Good skilled IT with over 2 years' experience including web development, maintenance at both corporate environments and freelancer.",
+      "Good skilled IT with over 2 years' experience including web development, maintenance at both corporate environments and r.",
       "Experienced in web development, from database to services and user interfaces",
       "Strong problem-solving, ability to debug and understand the existing source code",
       "Have a deep understanding of UI/UX.",
@@ -73,7 +73,7 @@
         "title": "Scout TechFul",
         "subTitle": "Japanese Job Platform",
         "dateTime": "Apr 2025 - Oct 2025",
-        "company": "Freelance project",
+        "company": "Freelancer project",
         "description": "A high-performance job search platform specifically for the Japanese market. The project focuses on a smooth search experience and optimized SEO capabilities.",
         "features": [
           "System architecture with Nuxt 3 ensures SEO and SSR (Server-Side Rendering).",
@@ -152,7 +152,7 @@
         "title": "Trainix",
         "subTitle": "Transportation Training Management Platform",
         "dateTime": "Apr 2025 - Oct 2025",
-        "company": "Freelance project",
+        "company": "Freelancer project",
         "description": "A web-based platform designed to support transportation training and education management, helping organizations manage courses, learners, and training-related processes efficiently.",
         "features": [
           "Developed a modern and reusable frontend using Vue.js, focusing on clean UI structure and smooth user experience.",
@@ -248,23 +248,16 @@
   },
   "experience": {
     "title": "Professional Journey",
-    "subtitle": "Work Experience",
+    "subtitle": "Work History",
     "totalExp": "3+ Years",
     "list": [
       {
-        "role": "Frontend Developer",
-        "company": "Freelance Project • Scout TechFul",
-        "period": "2025",
-        "type": "Remote",
-        "description": "Developed a high-traffic job search platform tailored for the Japanese market. Focused on SEO optimization and complex state management for job filtering systems.",
-        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
-        "color": "indigo"
-      },
-      {
-        "role": "Full-stack Developer",
+        "role": "Full-stack Developer • Junior level",
         "company": "Napa Global",
         "period": "2023 - 2025",
+        "timeDuration": "1 Year 6 Months",
         "type": "Da Nang",
+        "description": "A professional product & outsourcing environment, where I significantly developed my system-thinking mindset and teamwork skills.",
         "projects": [
           {
             "title": "Project: Carrotcake (AI SaaS)",
@@ -280,19 +273,55 @@
         "color": "emerald"
       },
       {
-        "role": "Frontend Developer",
-        "company": "Freelance Project • Trainix",
+        "role": "Web Developer • Technical Partner",
+        "company": "Freelancer",
         "period": "2023",
+        "timeDuration": "",
         "type": "Remote",
-        "description": "Developed a training management platform, focusing on intuitive interfaces and optimized user experiences for students and instructors.",
+        "description": "Transitioned to an independent working model as a Technical Partner, delivering custom web solutions tailored to client requirements.",
+        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
+        "projects": [
+          {
+            "title": "Project: Scout TechFul",
+            "role": "FullStack Developer",
+            "client": "Japanese client",
+            "description": "A job search platform for the Japanese market. Implemented SEO-friendly architecture with Nuxt 3 and complex state management using Pinia.",
+            "stack": ["Nuxt 3", "TypeScript", "Tailwind CSS"]
+          },
+          {
+            "title": "Project: Trainix",
+            "role": "FullStack Developer",
+            "client": "United States client",
+            "description": "A job search platform for the Japanese market. Implemented SEO-friendly architecture with Nuxt 3 and complex state management using Pinia.",
+            "stack": ["Nuxt 3", "TypeScript", "Tailwind CSS"]
+          }
+        ],
+        "color": "indigo"
+      },
+      {
+        "role": "Frontend Developer • Internship",
+        "company": "FPT Software",
+        "period": "2022",
+        "timeDuration": "3 months",
+        "type": "Da Nang",
+        "description": "",
         "technologies": ["React", "Redux", "Material UI"],
+        "projects": [
+          {
+            "title": "Project:",
+            "role": "Frontend Developer",
+            "client": "Korean client",
+            "description": "Contributed to the development of a digital financial information platform, focusing on user interface enhancements and interactive features.",
+            "stack": ["React", "Redux", "typeScript"]
+          }
+        ],
         "color": "orange"
       }
     ]
   },
   "contact": {
     "title": "Ready to start a project?",
-    "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question or just want to say hi.",
+    "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question.",
     "email": "mannjneff@gmail.com",
     "status": "Available for new projects",
     "links": {

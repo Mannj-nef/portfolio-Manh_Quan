@@ -15,7 +15,6 @@ export const MARQUEE_SWIPER_OPTIONS: SwiperOptions = {
   effect: 'slide',
   grabCursor: false,
   pagination: false,
-
   allowTouchMove: false,
   autoplay: {
     delay: 0,

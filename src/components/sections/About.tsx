@@ -9,8 +9,8 @@ interface AboutProps {
 
 export function About({ objectives, growthRoadmap }: AboutProps) {
   return (
-    <section id="about" className="py-24">
-      <div className="container mx-auto px-4 flex flex-col gap-48">
+    <section id="about" className="py-16 md:py-24">
+      <div className="container mx-auto px-4 flex flex-col gap-16 md:gap-48">
         <CareerObjective dict={objectives} />
         <GrowthRoadmap dict={growthRoadmap} />
       </div>

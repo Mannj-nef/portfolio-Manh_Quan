@@ -1,6 +1,5 @@
 'use client'
 
-import { Mail } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 interface ContactProps {
@@ -26,7 +25,7 @@ export function Contact({ dict }: ContactProps) {
     },
     {
       name: dict.links.linkedin,
-      href: 'https://linkedin.com/in/vmquan',
+      href: '',
     },
     {
       name: dict.links.resume,
@@ -37,7 +36,7 @@ export function Contact({ dict }: ContactProps) {
   return (
     <section
       id="contact"
-      className="bg-background py-24 relative overflow-hidden"
+      className="bg-background py-16 md:py-24 relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center text-center space-y-8">
@@ -47,9 +46,9 @@ export function Contact({ dict }: ContactProps) {
             whileInView={{ scale: 1, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary border border-border text-foreground shadow-lg"
+            className="flex h-12 w-12 items-center justify-center rounded font-bold bg-accent py-5 px-8  text-foreground shadow-lg"
           >
-            <Mail className="h-5 w-5" />
+            VMQ
           </motion.div>
 
           {/* Heading */}

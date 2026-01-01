@@ -12,11 +12,10 @@ export function ThemeToggle() {
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
       className="inline-flex items-center justify-center rounded-md p-2 hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring cursor-pointer"
     >
-      {theme === 'light' ? (
-        <Moon className="h-[1.2rem] w-[1.2rem]" />
-      ) : (
-        <Sun className="h-[1.2rem] w-[1.2rem]" />
-      )}
+      <span className="h-[1.2rem] w-[1.2rem] flex items-center justify-center">
+        <Moon className="block dark:hidden" />
+        <Sun className="hidden dark:block" />
+      </span>
     </button>
   )
 }

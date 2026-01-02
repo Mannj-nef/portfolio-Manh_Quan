@@ -96,7 +96,7 @@ export function Experience({ dict }: { dict: IExperience }) {
                 />
 
                 {/* Date Label */}
-                <div className="flex lg:flex-col items-center gap-2 lg:gap-0 lg:items-end absolute -top-8 -left-1 lg:-left-24 text-right">
+                <div className="flex xl:flex-col items-center gap-2 xl:gap-0 xl:items-end absolute -top-8 -left-1 xl:-left-24 text-right">
                   <span
                     className={cn(
                       'font-bold font-mono text-sm',
@@ -106,7 +106,7 @@ export function Experience({ dict }: { dict: IExperience }) {
                     {job.period}
                   </span>
 
-                  <span className="border-l px-2 lg:border-0 lg:px-0 text-muted-foreground/70 font-mono text-xs">
+                  <span className="border-l px-2 xl:border-0 xl:px-0 text-muted-foreground/70 font-mono text-xs">
                     {job.timeDuration}
                   </span>
                 </div>

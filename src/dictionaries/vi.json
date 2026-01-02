@@ -61,8 +61,8 @@
       {
         "title": "Scout TechFul",
         "subTitle": "Nền tảng việc làm Nhật Bản",
-        "dateTime": "4/2025 -  10/2025",
-        "company": "Freelancer project",
+        "dateTime": "10/2023 -  8/2024",
+        "company": "Freelance project",
         "description": "Một nền tảng tìm kiếm việc làm hiệu suất cao dành riêng cho thị trường Nhật Bản. Dự án tập trung vào trải nghiệm tìm kiếm mượt mà và khả năng SEO tối ưu.",
         "features": [
           "Kiến trúc hệ thống với Nuxt 3 đảm bảo SEO và SSR (Server-Side Rendering).",
@@ -139,8 +139,8 @@
       {
         "title": "Trainix",
         "subTitle": "Nền tảng quản lý đào tạo lĩnh vực giao thông – vận tải",
-        "dateTime": "4/2023 - 10/2025",
-        "company": "Freelancer project",
+        "dateTime": "4/2023 - 10/2023",
+        "company": "Freelance project",
         "description": "Một ứng dụng web phục vụ cho việc quản lý đào tạo và giảng dạy trong lĩnh vực giao thông – vận tải, giúp tổ chức theo dõi khóa học, học viên và các quy trình đào tạo một cách hiệu quả.",
         "features": [
           "Phát triển giao diện người dùng bằng Vue.js, tập trung vào cấu trúc rõ ràng, khả năng tái sử dụng và trải nghiệm mượt mà.",
@@ -317,7 +317,7 @@
       "linkedin": "LinkedIn",
       "resume": "Resume"
     },
-    "phone": "+84 985 953 178",
+    "phone": "+84 919 892 487",
     "copyright": "© {year} Võ Mạnh Quân. Đã đăng ký bản quyền."
   }
 }

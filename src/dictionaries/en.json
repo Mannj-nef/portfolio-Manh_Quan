@@ -10,7 +10,7 @@
     "name": "Vo Manh Quan",
     "introduction": "I'm",
     "role": "Web Developer",
-    "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript. I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both r projects and company-based work.",
+    "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript. I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
     "greeting": "Hello",
     "myCV": "Resume",
     "contactMe": "Contact Me"
@@ -21,7 +21,7 @@
       "Worked at Napa Global for over a year (now)",
       "Worked FPT Software (Fsoft) for 6 months",
       "Graduated in Frontend programming at IViettech programming center",
-      "Good skilled IT with over 2 years' experience including web development, maintenance at both corporate environments and r.",
+      "Good skilled IT with over 3 years' experience including web development, maintenance at both corporate environments and freelance projects.",
       "Experienced in web development, from database to services and user interfaces",
       "Strong problem-solving, ability to debug and understand the existing source code",
       "Have a deep understanding of UI/UX.",
@@ -72,8 +72,8 @@
       {
         "title": "Scout TechFul",
         "subTitle": "Japanese Job Platform",
-        "dateTime": "Apr 2025 - Oct 2025",
-        "company": "Freelancer project",
+        "dateTime": "Oct 2023 - Aug 2024",
+        "company": "Freelance project",
         "description": "A high-performance job search platform specifically for the Japanese market. The project focuses on a smooth search experience and optimized SEO capabilities.",
         "features": [
           "System architecture with Nuxt 3 ensures SEO and SSR (Server-Side Rendering).",
@@ -151,8 +151,8 @@
       {
         "title": "Trainix",
         "subTitle": "Transportation Training Management Platform",
-        "dateTime": "Apr 2025 - Oct 2025",
-        "company": "Freelancer project",
+        "dateTime": "Apr 2023 - Oct 2023",
+        "company": "Freelance project",
         "description": "A web-based platform designed to support transportation training and education management, helping organizations manage courses, learners, and training-related processes efficiently.",
         "features": [
           "Developed a modern and reusable frontend using Vue.js, focusing on clean UI structure and smooth user experience.",
@@ -329,7 +329,7 @@
       "linkedin": "LinkedIn",
       "resume": "Resume"
     },
-    "phone": "+84 985 953 178",
+    "phone": "+84 919 892 487",
     "copyright": "© {year} Vo Manh Quan. All Rights Reserved."
   }
 }

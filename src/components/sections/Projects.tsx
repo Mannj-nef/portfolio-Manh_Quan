@@ -46,7 +46,7 @@ export function Projects({ dict }: Project) {
           {dict.projects.map((project, index) => {
             const projectMainColor = {
               'PRODUCT @ NAPA GLOBAL': 'var(--color-christine)',
-              'Freelancer project': 'var(--color-emerald)',
+              'Freelance project': 'var(--color-emerald)',
             }[project.company]
 
             return (

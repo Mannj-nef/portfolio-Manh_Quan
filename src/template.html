@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vo Manh Quan - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Cấu hình khổ giấy A4 khi in */
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0c0a09; /* Stone-950 */
+        color: #e7e5e4; /* Stone-200 */
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .print-container {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        background-color: #0c0a09;
+        padding: 30px;
+        box-sizing: border-box;
+      }
+      /* Các element trang trí */
+      .accent-text {
+        color: #818cf8;
+      } /* Indigo-400 */
+      .section-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #f5f5f4; /* Stone-100 */
+        border-bottom: 2px solid #292524; /* Stone-800 */
+        padding-bottom: 4px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .skill-tag {
+        background-color: #1c1917; /* Stone-900 */
+        border: 1px solid #292524; /* Stone-800 */
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-size: 0.7rem;
+        color: #a8a29e; /* Stone-400 */
+        display: inline-block;
+        margin-right: 4px;
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body class="bg-stone-900 flex justify-center py-10 print:py-0">
+    <div class="print-container shadow-2xl print:shadow-none relative">
+      <!-- HEADER -->
+      <header class="flex justify-between items-start mb-6">
+        <div>
+          <h1 class="text-4xl font-bold text-white tracking-tight mb-2">
+            VO MANH QUAN
+          </h1>
+          <p class="text-xl text-indigo-400 font-medium">
+            Software Engineer (Full-stack)
+          </p>
+        </div>
+        <div class="text-right text-[10px] text-stone-400 space-y-1">
+          <p class="flex items-center justify-end gap-2">
+            Da Nang, Vietnam
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              ></path>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              ></path>
+            </svg>
+          </p>
+          <p class="flex items-center justify-end gap-2 font-medium">
+            portfolio-manh-quan.vercel.app
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+              ></path>
+            </svg>
+          </p>
+          <p class="flex items-center justify-end gap-2">
+            mannjneff@gmail.com
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+          </p>
+          <p class="flex items-center justify-end gap-2">
+            github.com/Mannj-nef
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+              ></path>
+            </svg>
+          </p>
+          <p class="flex items-center justify-end gap-2">
+            +84 919 892 487
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              ></path>
+            </svg>
+          </p>
+        </div>
+      </header>
+
+      <!-- 2 COLUMN LAYOUT -->
+      <div class="grid grid-cols-12 gap-8">
+        <!-- LEFT COLUMN (Main Content) -->
+        <div class="col-span-8">
+          <!-- SUMMARY -->
+          <div class="mb-5">
+            <h2 class="section-title">Professional Summary</h2>
+            <p class="text-sm text-stone-300 leading-relaxed text-justify">
+              Software Engineer with nearly 3 years of hands-on experience in
+              Web Development (JavaScript ecosystem). Possess a solid foundation
+              in building scalable applications with React, Next.js, Vue, Nuxt
+              and Node.js. Passionate about clean code, performance
+              optimization, and currently seeking a dynamic and challenging
+              environment to contribute to product growth.
+            </p>
+          </div>
+
+          <!-- EXPERIENCE (Career Journey Style) -->
+          <div class="mb-8">
+            <h2 class="section-title">Work History</h2>
+
+            <!-- Job 1 -->
+            <div class="mb-6 relative pl-4 border-l-2 border-stone-800">
+              <div
+                class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-emerald-500"
+              ></div>
+              <div class="flex justify-between items-baseline mb-1">
+                <h3 class="font-bold text-white">Full-stack Developer</h3>
+                <span class="text-xs text-stone-500 font-mono"
+                  >Sep 2023 - Feb 2025</span
+                >
+              </div>
+              <p class="text-xs text-emerald-300 mb-2">
+                Napa Global • Full-time
+              </p>
+              <ul
+                class="list-disc list-inside text-[13px] text-stone-400 space-y-1"
+              >
+                <li>
+                  <strong>Carrotcake (SaaS) • Frontend:</strong> Developed the
+                  UI for an AI-powered SaaS using
+                  <b class="text-white/80">Next.js</b>. Integrated backend APIs
+                  to display generated content and built an interactive
+                  scheduler for automated social media posting.
+                </li>
+                <li>
+                  <strong>Internal ERP • Full-stack:</strong> Developed
+                  full-stack modules for an internal company management system
+                  (HR, Booking) using
+                  <b class="text-white/80">React, Antd, NestJS & PostgreSQL</b>.
+                  Improved data integrity and optimized query performance.
+                </li>
+                <li>
+                  Mentored interns on coding standards and participated in code
+                  reviews.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="mb-6 relative pl-4 border-l-2 border-stone-800">
+              <div
+                class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-indigo-500"
+              ></div>
+              <div class="flex justify-between items-baseline mb-1">
+                <h3 class="font-bold text-white">Frontend Developer</h3>
+                <span class="text-xs text-stone-500 font-mono"
+                  >Oct 2023 - Aug 2024
+                </span>
+              </div>
+              <p class="text-xs text-indigo-300 mb-2">
+                Freelance • Japan Market
+              </p>
+              <ul
+                class="list-disc list-inside text-[13px] text-stone-400 space-y-1"
+              >
+                <li>
+                  <strong>Scout TechFul</strong>: Delivered high-performance
+                  frontend architecture for a Japanese job platform using
+                  <b class="text-white/80">Nuxt 3</b>, ensuring SEO optimization
+                  and seamless user experience.
+                </li>
+                <li>
+                  Implemented complex state management (<b class="text-white/80"
+                    >Pinia</b
+                  >) and ensured 100% type safety with
+                  <b class="text-white/80">TypeScript</b>.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="mb-6 relative pl-4 border-l-2 border-stone-800">
+              <div
+                class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-orange-500"
+              ></div>
+              <div class="flex justify-between items-baseline mb-1">
+                <h3 class="font-bold text-white">Full-stack Developer</h3>
+                <span class="text-xs text-stone-500 font-mono"
+                  >Apr 2023 - Oct 2023</span
+                >
+              </div>
+              <p class="text-xs text-orange-300 mb-2">Freelance • US Market</p>
+              <p class="text-[13px] text-stone-400">
+                Trainix (EdTech): Developed a transportation training management
+                platform using <b class="text-white/80">Vue.js & Nest.js</b>,
+                focusing on modular design and user-friendly interfaces.
+              </p>
+            </div>
+
+            <!-- Job 4 -->
+            <div class="mb-0 relative pl-4 border-l-2 border-stone-800">
+              <div
+                class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-stone-600"
+              ></div>
+              <div class="flex justify-between items-baseline mb-1">
+                <h3 class="font-bold text-white">Frontend Intern</h3>
+                <span class="text-xs text-stone-500 font-mono"
+                  >Jun 2022 - Aug 2022</span
+                >
+              </div>
+              <p class="text-xs text-stone-500 mb-2">FPT Software</p>
+              <p class="text-[13px] text-stone-400">
+                Contributed to the development of a digital financial
+                information platform for Korean clients. - Implemented UI
+                features and resolved technical issues using
+                <b class="text-white/80">ReactJS</b> and
+                <b class="text-white/90">TypeScript.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN (Skills & Education) -->
+        <div class="col-span-4">
+          <!-- SKILLS (Bento Style Tags) -->
+          <div class="mb-8">
+            <h2 class="section-title">Technical Stack</h2>
+
+            <div class="mb-4">
+              <h4 class="text-[10px] font-bold text-indigo-400 uppercase mb-2">
+                Frontend
+              </h4>
+              <div>
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag text-white border-indigo-500/30"
+                  >Next.js</span
+                >
+                <span class="skill-tag">Vue 3</span>
+                <span class="skill-tag">Nuxt 3</span>
+                <span class="skill-tag">Tailwind</span>
+                <span class="skill-tag">TypeScript</span>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <h4 class="text-[10px] font-bold text-emerald-400 uppercase mb-2">
+                Backend
+              </h4>
+              <div>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag text-white border-emerald-500/30"
+                  >NestJS</span
+                >
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">AWS (Basic)</span>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <h4 class="text-[10px] font-bold text-stone-400 uppercase mb-2">
+                Tools
+              </h4>
+              <div>
+                <span class="skill-tag">Git/GitHub</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Postman</span>
+                <span class="skill-tag">Figma (Basic)</span>
+                <span class="skill-tag">Jira</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- EDUCATION -->
+          <div class="mb-8">
+            <h2 class="section-title">Education</h2>
+            <div class="mb-3">
+              <h3 class="font-bold text-white text-sm">Software Engineering</h3>
+              <p class="text-[10px] text-stone-400">
+                Vietnam - Korea University
+              </p>
+              <p class="text-[10px] text-stone-500">2020 - 2025</p>
+            </div>
+            <div>
+              <h3 class="font-bold text-white text-sm">Frontend Cert</h3>
+              <p class="text-[10px] text-stone-400">IViettech</p>
+              <p class="text-[10px] text-stone-500">2022</p>
+            </div>
+          </div>
+
+          <!-- SOFT SKILLS -->
+          <div class="mb-8">
+            <h2 class="section-title">Soft Skills</h2>
+            <ul class="text-sm text-stone-400 space-y-1">
+              <ul class="text-xs text-stone-400 space-y-1">
+                <li>• Problem Solving</li>
+                <li>• Team Collaboration</li>
+                <li>• Adaptability</li>
+                <li>• Self-learning</li>
+              </ul>
+            </ul>
+          </div>
+
+          <!-- LANGUAGES -->
+          <div class="mb-8">
+            <h2 class="section-title">Languages</h2>
+            <ul class="text-sm text-stone-400 space-y-1">
+              <ul class="text-xs text-stone-400 space-y-1">
+                <li>• Vietnamese (Native)</li>
+                <li>• English (Technical Reading)</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER (Optional for printed CV) -->
+      <div class="absolute bottom-6 right-10 text-[10px] text-stone-600">
+        © Vo Manh Quan.
+      </div>
+    </div>
+  </body>
+</html>

@@ -60,7 +60,7 @@ export function Skills({ dict }: { dict: ISkills }) {
         </motion.div>
 
         <div className="grid gap-12 md:grid-cols-2">
-          {SECTION_CONFIG.map((section, index) => {
+          {SECTION_CONFIG.map((section) => {
             const sectionData = dict[section.key as keyof ISkills]
 
             // Skip if data is missing or not in expected format

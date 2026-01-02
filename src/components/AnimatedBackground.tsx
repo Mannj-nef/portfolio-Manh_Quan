@@ -17,7 +17,7 @@ export function AnimatedBackground() {
   const isDark = theme === 'dark'
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden bg-background transition-colors duration-1000">
+    <div className="hidden md:block fixed inset-0 -z-10 overflow-hidden bg-background transition-colors duration-1000">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -75,14 +75,6 @@ export function AnimatedBackground() {
             ${isDark ? 'bg-violet-900/20' : 'bg-indigo-100/40'}`}
         />
       </motion.div>
-
-      {/* Noise Overlay for texture */}
-      <div
-        className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
-        }}
-      />
     </div>
   )
 }

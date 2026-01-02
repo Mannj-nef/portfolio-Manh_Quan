@@ -27,7 +27,7 @@ export async function generateMetadata({
   const { lang } = await params
   const dict = await getDictionary(lang as Locale)
 
-  const baseUrl = 'https://vomanhquan.com' // Replace with actual domain
+  const baseUrl = 'https://portfolio-manh-quan.vercel.app' // Replace with actual domain
 
   return {
     title: {

@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next'
+import { config } from '~/constants'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://portfolio-manh-quan.vercel.app/' // Replace with actual domain
+  const baseUrl = config.url
 
   const routes = ['', '/about', '/projects', '/contact']
   const languages = ['en', 'vi']

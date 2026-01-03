@@ -16,6 +16,7 @@ export async function generateStaticParams() {
 }
 
 import { type Metadata } from 'next'
+import { config } from '~/constants'
 
 // ... existing imports
 
@@ -27,7 +28,7 @@ export async function generateMetadata({
   const { lang } = await params
   const dict = await getDictionary(lang as Locale)
 
-  const baseUrl = 'https://portfolio-manh-quan.vercel.app' // Replace with actual domain
+  const baseUrl = config.url
 
   return {
     title: {

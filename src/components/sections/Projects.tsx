@@ -19,7 +19,7 @@ interface Project {
 export function Projects({ dict }: Project) {
   return (
     <section id="portfolio" className="py-16 md:py-24 bg-muted/20">
-      <div className="container mx-auto  px-4">
+      <div className="container mx-auto  px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

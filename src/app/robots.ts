@@ -1,13 +1,13 @@
 import { MetadataRoute } from 'next'
+import { config } from '~/constants'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://portfolio-manh-quan.vercel.app/' // Replace with actual domain
+  const baseUrl = config.url
 
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/private/',
     },
     sitemap: `${baseUrl}/sitemap.xml`,
   }

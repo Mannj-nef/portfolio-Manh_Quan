@@ -8,7 +8,7 @@ import { Building, Globe } from 'lucide-react'
 export function Experience({ dict }: { dict: IExperience }) {
   return (
     <section id="experience" className="py-16 md:py-24 overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-8">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-4">
           <div>

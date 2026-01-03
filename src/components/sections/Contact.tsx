@@ -38,7 +38,7 @@ export function Contact({ dict }: ContactProps) {
       id="contact"
       className="bg-background py-16 md:py-24 relative overflow-hidden"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col items-center justify-center text-center space-y-8">
           {/* Icon */}
           <motion.div

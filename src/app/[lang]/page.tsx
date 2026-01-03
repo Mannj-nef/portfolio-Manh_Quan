@@ -6,6 +6,7 @@ import { Skills } from '@/components/sections/Skills'
 import { Experience } from '@/components/sections/Experience'
 import { Contact } from '@/components/sections/Contact'
 import { Projects } from '@/components/sections/Projects'
+import { config } from '~/constants'
 
 export default async function Home({
   params,
@@ -16,21 +17,29 @@ export default async function Home({
   const dict = await getDictionary(lang as Locale)
 
   const jsonLd = {
+    '@id': `${config.url}/#person`,
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Vo Manh Quan',
-    url: 'https://vomanhquan.com',
-    image: 'https://vomanhquan.com/assets/avatar.png',
+    url: config.url,
+    image: `${config.url}/assets/avatar.png`,
     sameAs: [
       'https://github.com/mannj-nef',
-      'https://linkedin.com/in/vmquan',
-      'https://twitter.com/vmquan',
+      'https://www.linkedin.com/in/mannj-neff/',
+      'https://x.com/Mannj_nef',
     ],
     jobTitle: 'Full Stack Developer',
-    worksFor: {
-      '@type': 'Organization',
-      name: 'Freelance',
-    },
+    description:
+      'Full-stack software engineer specializing in React, Next.js, NestJS, and scalable web applications.',
+    knowsAbout: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'NestJS',
+      'Node.js',
+      'Web Development',
+    ],
   }
 
   return (

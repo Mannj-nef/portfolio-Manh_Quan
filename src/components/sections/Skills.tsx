@@ -43,7 +43,7 @@ const SECTION_CONFIG: SkillSectionConfig[] = [
 export function Skills({ dict }: { dict: ISkills }) {
   return (
     <section id="skills" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}

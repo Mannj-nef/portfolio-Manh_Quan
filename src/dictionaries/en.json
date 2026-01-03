@@ -292,8 +292,8 @@
             "title": "Project: Trainix",
             "role": "FullStack Developer",
             "client": "United States client",
-            "description": "A job search platform for the Japanese market. Implemented SEO-friendly architecture with Nuxt 3 and complex state management using Pinia.",
-            "stack": ["Nuxt 3", "TypeScript", "Tailwind CSS"]
+            "description": "Developing a training management platform for the transportation sector, helping organizations effectively track courses, trainees, and training processes.",
+            "stack": ["Vue.js", "NestJS", "PostgreSQL"]
           }
         ],
         "color": "indigo"

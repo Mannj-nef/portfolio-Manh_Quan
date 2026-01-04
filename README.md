@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vo Manh Quan | Full Stack Developer Portfolio
 
-## Getting Started
+Welcome to my professional portfolio! This is a modern, high-performance, and SEO-optimized web application built with **Next.js 15+** and **Tailwind CSS v4**. It showcases my professional journey, skills, and projects as a Full Stack Developer.
 
-First, run the development server:
+## 🚀 Live Demo
+
+Check out the live version here: [portfolio-manh-quan.vercel.app](https://portfolio-manh-quan.vercel.app/)
+
+## ✨ Key Features
+
+- **🌐 Multi-language Support**: Fully localized in English and Vietnamese with dynamic dictionary-based translations.
+- **🌓 Dark/Light Mode**: Smooth theme switching using `next-themes` with a "Warm Minimalist" aesthetic.
+- **📱 Responsive Design**: optimized for all screen sizes, from mobile to ultra-wide displays (1300px+ specifically handled).
+- **🎨 Modern Animations**: Engaging micro-interactions and scroll-based animations powered by **Framer Motion**.
+- **🔍 SEO Optimized**:
+  - Semantic HTML5 structure.
+  - Dynamic Metadata & OpenGraph tags for social sharing.
+  - Automated `sitemap.xml` and `robots.txt` generation.
+  - Structured data (JSON-LD) for better search engine indexing.
+- **⚡ Performance**:
+  - Built with **Next.js Turbopack** for lightning-fast development.
+  - Optimized font loading with `next/font`.
+  - Lazy-loaded components and images.
+
+## 🛠️ Tech Stack
+
+### Core
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+
+### Libraries
+
+- **Theme Management**: `next-themes`
+- **Slider/Carousel**: `Swiper.js`
+- **Utilities**: `clsx`, `tailwind-merge`, `class-variance-authority`
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/                  # Next.js App Router (Layouts, Pages, SEO)
+├── components/           # Reusable UI components & Sections
+│   ├── sections/         # Main page sections (Hero, About, Projects, etc.)
+│   └── ui/               # Primary UI primitives (shadcn/ui style)
+├── constants/            # Shared constants, config, and swiper options
+├── dictionaries/         # JSON files for i18n support (EN, VI)
+├── i18n/                 # Internationalization logic and settings
+├── lib/                  # Utility functions and library wrappers
+├── types/                # Global TypeScript definitions
+└── utils/                # Helper functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Node.js**: 18.x or later
+- **npm** or **yarn** or **pnpm**
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/mannj-nef/portfolio-Manh_Quan.git
+   cd cv-app
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```env
+   NEXT_PUBLIC_URL=http://localhost:3000
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📄 License
+
+This project is licensed under the MIT License. Feel free to use it as a template for your own portfolio!
+
+---
+
+**Built with ❤️ by Vo Manh Quan**

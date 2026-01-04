@@ -9,7 +9,7 @@ import { IHero } from '~/types'
 export function Hero({ dict }: { dict: IHero }) {
   return (
     <section className="relative pt-16 md:py-24 overflow-hidden">
-      <div className="container mx-auto px-4 md:px-8 gap-8 flex flex-col md:flex-row">
+      <div className="container mx-auto px-4 pb-16 md:pb-0 md:px-8 gap-8 flex flex-col md:flex-row">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

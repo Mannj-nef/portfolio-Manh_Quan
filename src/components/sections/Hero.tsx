@@ -69,7 +69,7 @@ export function Hero({ dict }: { dict: IHero }) {
           <Image
             src="/assets/manh-quan.webp"
             alt="Hero Image"
-            width={800}
+            width={600}
             height={800}
             className="w-full h-auto rounded-2xl shadow-2xl"
           />

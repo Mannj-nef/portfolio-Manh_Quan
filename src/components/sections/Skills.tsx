@@ -48,7 +48,7 @@ export function Skills({ dict }: { dict: ISkills }) {
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
           className="mb-16 space-y-4"
         >
           <HeadingSection
@@ -94,7 +94,11 @@ export function Skills({ dict }: { dict: ISkills }) {
                           initial={{ opacity: 0, y: 20 }}
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true }}
-                          transition={{ delay: index * 0.3 }}
+                          transition={{
+                            delay: index * 0.3,
+                            duration: 0.6,
+                            ease: 'easeOut',
+                          }}
                           className="flex gap-4"
                         >
                           <span className="text-xl font-mono text-muted-foreground/40 font-bold">

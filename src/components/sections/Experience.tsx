@@ -16,15 +16,16 @@ export function Experience({ dict }: { dict: IExperience }) {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
+              transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
               className="text-indigo-500 font-bold tracking-wider uppercase text-sm mb-2"
             >
               {dict.title}
             </motion.p>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
+              transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
               className="text-4xl md:text-5xl font-bold flex flex-wrap gap-2 items-baseline font-serif"
             >
               <span className="">{dict.subtitle}</span>
@@ -35,6 +36,7 @@ export function Experience({ dict }: { dict: IExperience }) {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
+            transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
             className="bg-card/50 border border-muted-foreground/20 px-4 py-2 rounded-[10px]"
           >
             <span className="text-muted-foreground font-mono">
@@ -84,7 +86,7 @@ export function Experience({ dict }: { dict: IExperience }) {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
                 className="relative pl-8 md:pl-12 border-l-2 border-muted-foreground/20"
               >
                 {/* Timeline Dot */}

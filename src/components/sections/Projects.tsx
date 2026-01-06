@@ -24,7 +24,7 @@ export function Projects({ dict }: Project) {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.3 }}
+          transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
           className="mb-8 md:mb-16 flex flex-col md:flex-row justify-between gap-4"
         >
           <div className="flex flex-col gap-2">
@@ -55,7 +55,11 @@ export function Projects({ dict }: Project) {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
+                transition={{
+                  delay: index * 0.2,
+                  duration: 0.6,
+                  ease: 'easeOut',
+                }}
                 style={{ '--accent': projectMainColor } as CSSProperties}
                 className="shadow-lg rounded-2xl p-4 md:p-6 bg-card flex flex-col gap-6 w-full overflow-hidden"
               >

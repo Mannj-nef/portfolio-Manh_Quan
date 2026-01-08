@@ -261,7 +261,7 @@
         "projects": [
           {
             "title": "Project: Carrotcake (AI SaaS)",
-            "description": "Built an AI-integrated social media management tool. Implemented content suggestion engine via OpenAI API and drag-and-drop scheduling features.",
+            "description": "Develop an AI-integrated social media management tool. Implement a content recommendation engine via the OpenAI API and an automatic posting scheduling feature on Facebook and Instagram.",
             "stack": ["Next.js", "TypeScript", "OpenAI"]
           },
           {

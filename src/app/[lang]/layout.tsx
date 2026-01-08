@@ -4,6 +4,7 @@ import { languages } from '@/i18n/settings'
 import { Providers } from '@/components/providers'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { ScrollToTop } from '@/components/ScrollToTop'
 import { AnimatedBackground } from '@/components/AnimatedBackground'
 import { getDictionary } from '@/i18n/dictionaries'
 import type { Locale } from '@/i18n/settings'
@@ -102,6 +103,7 @@ export default async function RootLayout({
             <main className="flex-1">{children}</main>
             <Footer copyright={dictionary.contact.copyright} />
           </div>
+          <ScrollToTop />
         </Providers>
       </body>
     </html>

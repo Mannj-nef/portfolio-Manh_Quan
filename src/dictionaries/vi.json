@@ -249,7 +249,7 @@
         "projects": [
           {
             "title": "Dự án: Carrotcake (AI SaaS)",
-            "description": "Xây dựng công cụ quản lý mạng xã hội tích hợp AI. Triển khai engine gợi ý nội dung thông qua OpenAI API và tính năng lên lịch kéo thả.",
+            "description": "Xây dựng công cụ quản lý mạng xã hội tích hợp AI. Triển khai engine gợi ý nội dung thông qua OpenAI API và tính năng lên lịch đăng bài tự động trên các nền tảng facebook, instagram.",
             "stack": ["Next.js", "TypeScript", "OpenAI"]
           },
           {

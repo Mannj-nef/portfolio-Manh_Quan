@@ -10,7 +10,7 @@
     "name": "Võ Mạnh Quân",
     "introduction": "tôi là",
     "role": "Lập trình viên Web",
-    "description": "Tôi là một kỹ sư phần mềm với trách nhiệm chính trong việc thiết kế và phát triển ứng dụng phần mềm, chủ yếu bằng ngôn ngữ lập trình JavaScript. Tôi có hơn 3 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, bao gồm việc xây dựng, bảo trì hệ thống và phân tích yêu cầu cho các dự án freelancer cũng như khi làm việc tại công ty.",
+    "description": "Tôi là một kỹ sư phần mềm với trách nhiệm chính trong việc thiết kế và phát triển ứng dụng phần mềm, chủ yếu bằng ngôn ngữ lập trình JavaScript (TypeScript). Tôi có hơn 3 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, bao gồm việc xây dựng, bảo trì hệ thống và phân tích yêu cầu cho các dự án freelancer cũng như khi làm việc tại công ty.",
     "greeting": "Xin chào",
     "myCV": "CV của tôi",
     "contactMe": "Liên hệ"
@@ -250,7 +250,7 @@
           {
             "title": "Dự án: Carrotcake (AI SaaS)",
             "description": "Xây dựng công cụ quản lý mạng xã hội tích hợp AI. Triển khai engine gợi ý nội dung thông qua OpenAI API và tính năng lên lịch đăng bài tự động trên các nền tảng facebook, instagram.",
-            "stack": ["Next.js", "TypeScript", "OpenAI"]
+            "stack": ["Next.js", "TypeScript"]
           },
           {
             "title": "Dự án: Napa-tools (Internal ERP)",

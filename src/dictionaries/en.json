@@ -101,7 +101,7 @@
         "company": "PRODUCT @ NAPA GLOBAL",
         "description": "Built an AI-powered SaaS platform for automated content creation and social media scheduling (Facebook & Instagram).",
         "features": [
-          "Integrated OpenAI API with a FastAPI backend to deliver intelligent content generation and recommendations.",
+          "Integrating the OpenAI API and collaborating with the FastAPI backend team, we built an intelligent content recommendation engine.",
           "Implemented a drag-and-drop scheduling system using Next.js for seamless post management.",
           "Developed an automated scheduling workflow to publish posts at optimal times.",
           "Designed a clean, modern UI with Tailwind CSS to enhance usability and user experience."
@@ -262,7 +262,7 @@
           {
             "title": "Project: Carrotcake (AI SaaS)",
             "description": "Develop an AI-integrated social media management tool. Implement a content recommendation engine via the OpenAI API and an automatic posting scheduling feature on Facebook and Instagram.",
-            "stack": ["Next.js", "TypeScript", "OpenAI"]
+            "stack": ["Next.js", "TypeScript"]
           },
           {
             "title": "Project: Napa-tools (Internal ERP)",

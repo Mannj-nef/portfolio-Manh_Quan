@@ -1,335 +1,451 @@
 {
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "experience": "Experience",
-    "contact": "Contact"
-  },
-  "hero": {
-    "name": "Vo Manh Quan",
-    "introduction": "I'm",
-    "role": "Web Developer",
-    "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript. I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
-    "greeting": "Hello",
-    "myCV": "Resume",
-    "contactMe": "Contact Me"
-  },
-  "about": {
-    "title": "Summarize",
-    "items": [
-      "Worked at Napa Global for over a year (now)",
-      "Worked FPT Software (Fsoft) for 6 months",
-      "Graduated in Frontend programming at IViettech programming center",
-      "Good skilled IT with over 3 years' experience including web development, maintenance at both corporate environments and freelance projects.",
-      "Experienced in web development, from database to services and user interfaces",
-      "Strong problem-solving, ability to debug and understand the existing source code",
-      "Have a deep understanding of UI/UX.",
-      "Know clean code, optimize applications.",
-      "Proficient in Git"
-    ]
-  },
-  "objectives": {
-    "title": "Senior Full-stack Engineer",
-    "subtitle": "Career Objective",
-    "become": "Become",
-    "yearExperience": "Year Experience",
-    "projectDone": "Project Done",
-    "description": "I don't just write code, I build solutions. I focus on clean code, design patterns, and the ability to independently handle a complete feature from database to UI. My goal is to master the JavaScript/TypeScript ecosystem to create highly scalable, high-performance, and cost-effective web applications."
-  },
-  "growthRoadmap": {
-    "title": "Personal development",
-    "subtitle": "Growth Roadmap",
-    "orientation": "Orientation",
-    "list": [
-      {
-        "id": "01",
-        "title": "Short-term (1-2 Years)",
-        "descriptions": [
-          "Obtain AWS Solution Architect certification.",
-          "Deep dive into Micro-frontends/Microservices.",
-          "I aspire to work and study in a professional environment.",
-          "Seeking opportunities to contribute and develop oneself."
+  "junior": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "skills": {
+      "myStack": "My Stack",
+      "title": "Technical Proficiency",
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          {
+            "title": "Core Languages",
+            "list": "JavaScript, TypeScript"
+          },
+          {
+            "title": "React Ecosystem",
+            "list": "React.js, Next.js (App Router), Redux, React Query, React Hook Form, React Router, Zustand, React big calendar, React Select"
+          },
+          {
+            "title": "Vue Ecosystem",
+            "list": "Vue 3, Nuxt 3, Pinia, Vuetify, VeeValidate, Swiper"
+          },
+          {
+            "title": "UI & Styling",
+            "list": "Tailwind CSS, SCSS, Styled component, Figma (for Dev)"
+          }
         ]
       },
-      {
-        "id": "02",
-        "title": "Long-term (3-5 Years)",
-        "descriptions": [
-          "Become Tech Lead, mentor for junior members and participate in product development process (Product Mindset).",
-          "Create changes to contribute to the company's growth."
+      "backend": {
+        "title": "Backend",
+        "items": [
+          {
+            "title": "Runtime & Frameworks",
+            "list": "Node.js, NestJS, Express"
+          },
+          {
+            "title": "Databases",
+            "list": "PostgreSQL, MongoDB"
+          },
+          {
+            "title": "Cloud Services",
+            "list": "AWS (EC2, S3), Firebase, Google Cloud (OAuth2)"
+          },
+          {
+            "title": "DevOps & Tools",
+            "list": "Docker, Git, Postman, Jest, Jira, Trello"
+          }
+        ]
+      },
+      "methodologies": {
+        "title": "Methodologies & Others",
+        "items": [
+          {
+            "title": "Workflow & Standards",
+            "list": "Agile/Scrum, Clean Code Principles, RESTful API Design"
+          },
+          {
+            "title": "Languages",
+            "list": "English (Reading Technical Documentation), Vietnamese (Native)"
+          }
+        ]
+      },
+      "softSkills": {
+        "title": "Soft Skills",
+        "items": [
+          "Problem Solving",
+          "Team Collaboration",
+          "Adaptability",
+          "Self-learning",
+          "Time Management",
+          "Attention to Detail"
         ]
       }
-    ]
-  },
-  "project": {
-    "practicalExperience": "Practical Experience",
-    "titleFirst": "Featured",
-    "titleSecond": "Projects",
-    "description": "Delivering scalable web solutions and intuitive user experiences.",
-    "subDescription": "Here are a few projects that define my technical journey.",
-    "projects": [
-      {
-        "title": "Scout TechFul",
-        "subTitle": "Japanese Job Platform",
-        "dateTime": "Oct 2023 - Aug 2024",
-        "company": "Freelance project",
-        "description": "A high-performance job search platform specifically for the Japanese market. The project focuses on a smooth search experience and optimized SEO capabilities.",
-        "features": [
-          "System architecture with Nuxt 3 ensures SEO and SSR (Server-Side Rendering).",
-          "Complex state management (search filters, applications) using Pinia.",
-          "Reduces runtime errors by closely applying TypeScript.",
-          "Modern and user-friendly interface design with Tailwind CSS.",
-          "Performance analysis and optimization using techniques such as code splitting and lazy loading."
-        ],
-        "technologies": [
-          "Nuxt 3",
-          "Pinia",
-          "TypeScript",
-          "Tailwind CSS",
-          "VeeValidate",
-          "TinyMCE",
-          "Swiper",
-          "Vuetify",
-          "Yup"
-        ]
-      },
-      {
-        "title": "Carrotcake",
-        "subTitle": "Al Social Media Manager",
-        "dateTime": "Sep 2023 - Feb 2025",
-        "company": "PRODUCT @ NAPA GLOBAL",
-        "description": "Built an AI-powered SaaS platform for automated content creation and social media scheduling (Facebook & Instagram).",
-        "features": [
-          "Integrating the OpenAI API and collaborating with the FastAPI backend team, we built an intelligent content recommendation engine.",
-          "Implemented a drag-and-drop scheduling system using Next.js for seamless post management.",
-          "Developed an automated scheduling workflow to publish posts at optimal times.",
-          "Designed a clean, modern UI with Tailwind CSS to enhance usability and user experience."
-        ],
-        "technologies": [
-          "Next.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "React hook form",
-          "Context API",
-          "Yup",
-          "Scss"
-        ]
-      },
-      {
-        "title": "Napa-tools",
-        "subTitle": "Internal Company Management Platform",
-        "dateTime": "Sep 2023 - Feb 2025",
-        "company": "PRODUCT @ NAPA GLOBAL",
-        "description": "An internal enterprise management platform that helps companies manage employees, projects, schedules, and operational workflows in a centralized system.",
-        "features": [
-          "Developed modules for HR management, project tracking, meeting room booking, and accounting operations.",
-          "IImplemented employee attendance tracking, work schedules (on/off), late check-ins, and request/approval workflows.",
-          "Built a responsive and reusable frontend using React.",
-          "Designed and implemented a scalable backend with NestJS and PostgreSQL.",
-          "Ensured secure, maintainable architecture with role-based access control and clean API design."
-        ],
-        "technologies": [
-          "React",
-          "Scss",
-          "React hook form",
-          "Zustand",
-          "React router",
-          "React query",
-          "Ant Design",
-          "TypeScript",
-          "Tailwind CSS",
-          "React big calendar",
-          "Yup",
-          "NestJS",
-          "PostgreSQL",
-          "TypeORM",
-          "Redis",
-          "JWT"
-        ]
-      },
-      {
-        "title": "Trainix",
-        "subTitle": "Transportation Training Management Platform",
-        "dateTime": "Apr 2023 - Oct 2023",
-        "company": "Freelance project",
-        "description": "A web-based platform designed to support transportation training and education management, helping organizations manage courses, learners, and training-related processes efficiently.",
-        "features": [
-          "Developed a modern and reusable frontend using Vue.js, focusing on clean UI structure and smooth user experience.",
-          "Designed and implemented the backend using NestJS, handling business logic, data flow, and API architecture.",
-          "Built core features for managing training courses, learners, and related educational data.",
-          "Designed APIs and data models, ensuring consistent data structures between frontend and backend.",
-          "Applied modular architecture, clean code practices, and well-structured API design to ensure scalability, maintainability, and long-term system stability."
-        ],
-        "technologies": [
-          "Vue.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Yup",
-          "Scss",
-          "Pinia",
-          "Nestjs",
-          "PostgreSQL",
-          "TypeORM",
-          "JWT"
-        ]
-      }
-    ]
-  },
-  "skills": {
-    "myStack": "My Stack",
-    "title": "Technical Proficiency",
-    "frontend": {
-      "title": "Frontend",
-      "items": [
-        {
-          "title": "Core Languages",
-          "list": "JavaScript, TypeScript"
-        },
-        {
-          "title": "React Ecosystem",
-          "list": "React.js, Next.js (App Router), Redux, React Query, React Hook Form, React Router, Zustand, React big calendar, React Select"
-        },
-        {
-          "title": "Vue Ecosystem",
-          "list": "Vue 3, Nuxt 3, Pinia, Vuetify, VeeValidate, Swiper"
-        },
-        {
-          "title": "UI & Styling",
-          "list": "Tailwind CSS, SCSS, Styled component, Figma (for Dev)"
-        }
-      ]
     },
-    "backend": {
-      "title": "Backend",
-      "items": [
-        {
-          "title": "Runtime & Frameworks",
-          "list": "Node.js, NestJS, Express"
-        },
-        {
-          "title": "Databases",
-          "list": "PostgreSQL, MongoDB"
-        },
-        {
-          "title": "Cloud Services",
-          "list": "AWS (EC2, S3), Firebase, Google Cloud (OAuth2)"
-        },
-        {
-          "title": "DevOps & Tools",
-          "list": "Docker, Git, Postman, Jest, Jira, Trello"
-        }
-      ]
-    },
-    "methodologies": {
-      "title": "Methodologies & Others",
-      "items": [
-        {
-          "title": "Workflow & Standards",
-          "list": "Agile/Scrum, Clean Code Principles, RESTful API Design"
-        },
-        {
-          "title": "Languages",
-          "list": "English (Reading Technical Documentation), Vietnamese (Native)"
-        }
-      ]
-    },
-    "softSkills": {
-      "title": "Soft Skills",
-      "items": [
-        "Problem Solving",
-        "Team Collaboration",
-        "Adaptability",
-        "Self-learning",
-        "Time Management",
-        "Attention to Detail"
-      ]
+    "contact": {
+      "title": "Ready to start a project?",
+      "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question.",
+      "email": "mannjneff@gmail.com",
+      "status": "Available for new projects",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "resume": "Resume"
+      },
+      "phone": "+84 919 892 487",
+      "copyright": "© {year} Vo Manh Quan. All Rights Reserved."
     }
   },
-  "experience": {
-    "title": "Professional Journey",
-    "subtitle": "Work History",
-    "totalExp": "3 Years",
-    "list": [
-      {
-        "role": "Full-stack Developer • Junior level",
-        "company": "Napa Global",
-        "period": "2023 - 2025",
-        "timeDuration": "1 Year 6 Months",
-        "type": "Da Nang",
-        "description": "A professional product & outsourcing environment, where I significantly developed my system-thinking mindset and teamwork skills.",
-        "projects": [
-          {
-            "title": "Project: Carrotcake (AI SaaS)",
-            "description": "Develop an AI-integrated social media management tool. Implement a content recommendation engine via the OpenAI API and an automatic posting scheduling feature on Facebook and Instagram.",
-            "stack": ["Next.js", "TypeScript"]
-          },
-          {
-            "title": "Project: Napa-tools (Internal ERP)",
-            "description": "Architected the internal management system (HR, Booking, Accounting). Designed database schema and RESTful APIs for secure data flow.",
-            "stack": ["React", "NestJS", "PostgreSQL"]
-          }
-        ],
-        "color": "emerald"
-      },
-      {
-        "role": "Web Developer • Technical Partner",
-        "company": "Freelancer",
-        "period": "2023",
-        "timeDuration": "",
-        "type": "Remote",
-        "description": "Transitioned to an independent working model as a Technical Partner, delivering custom web solutions tailored to client requirements.",
-        "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
-        "projects": [
-          {
-            "title": "Project: Scout TechFul",
-            "role": "FullStack Developer",
-            "client": "Japanese client",
-            "description": "A job search platform for the Japanese market. Implemented SEO-friendly architecture with Nuxt 3 and complex state management using Pinia.",
-            "stack": ["Nuxt 3", "TypeScript", "Tailwind CSS"]
-          },
-          {
-            "title": "Project: Trainix",
-            "role": "FullStack Developer",
-            "client": "United States client",
-            "description": "Developing a training management platform for the transportation sector, helping organizations effectively track courses, trainees, and training processes.",
-            "stack": ["Vue.js", "NestJS", "PostgreSQL"]
-          }
-        ],
-        "color": "indigo"
-      },
-      {
-        "role": "Frontend Developer • Internship",
-        "company": "FPT Software",
-        "period": "2022",
-        "timeDuration": "3 months",
-        "type": "Da Nang",
-        "description": "",
-        "technologies": ["React", "Redux", "Material UI"],
-        "projects": [
-          {
-            "title": "Project:",
-            "role": "Frontend Developer",
-            "client": "Korean client",
-            "description": "Contributed to the development of a digital financial information platform, focusing on user interface enhancements and interactive features.",
-            "stack": ["React", "Redux", "typeScript"]
-          }
-        ],
-        "color": "orange"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Ready to start a project?",
-    "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question.",
-    "email": "mannjneff@gmail.com",
-    "status": "Available for new projects",
-    "links": {
-      "github": "GitHub",
-      "linkedin": "LinkedIn",
-      "resume": "Resume"
+  "middle": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "contact": "Contact"
     },
-    "phone": "+84 919 892 487",
-    "copyright": "© {year} Vo Manh Quan. All Rights Reserved."
+    "hero": {
+      "name": "Vo Manh Quan",
+      "introduction": "I'm",
+      "role": "Web Developer",
+      "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript (TypeScript). I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
+      "greeting": "Hello",
+      "myCV": "My CV",
+      "contactMe": "Contact Me"
+    },
+    "about": {
+      "title": "Summarize",
+      "items": [
+        "Worked at Napa Global for over a year (now)",
+        "Worked FPT Software (Fsoft) for 6 months",
+        "Graduated in Frontend programming at IViettech programming center",
+        "Good skilled IT with over 3 years' experience including web development, maintenance at both corporate environments and freelance projects.",
+        "Experienced in web development, from database to services and user interfaces",
+        "Strong problem-solving, ability to debug and understand the existing source code",
+        "Have a deep understanding of UI/UX.",
+        "Know clean code, optimize applications.",
+        "Proficient in Git"
+      ]
+    },
+    "objectives": {
+      "title": "Senior Full-stack Engineer",
+      "subtitle": "Career Objective",
+      "become": "Become",
+      "yearExperience": "Year Experience",
+      "projectDone": "Project Done",
+      "description": "I don't just write code, I build solutions. I focus on clean code, design patterns, and the ability to independently handle a complete feature from database to UI. My goal is to master the JavaScript/TypeScript ecosystem to create highly scalable, high-performance, and cost-effective web applications."
+    },
+    "growthRoadmap": {
+      "title": "Personal development",
+      "subtitle": "Growth Roadmap",
+      "orientation": "Orientation",
+      "list": [
+        {
+          "id": "01",
+          "title": "Short-term (1-2 Years)",
+          "descriptions": [
+            "Obtain AWS Solution Architect certification.",
+            "Deep dive into Micro-frontends/Microservices.",
+            "I aspire to work and study in a professional environment.",
+            "Seeking opportunities to contribute and develop oneself."
+          ]
+        },
+        {
+          "id": "02",
+          "title": "Long-term (3-5 Years)",
+          "descriptions": [
+            "Become Tech Lead, mentor for junior members and participate in product development process (Product Mindset).",
+            "Create changes to contribute to the company's growth."
+          ]
+        }
+      ]
+    },
+    "project": {
+      "practicalExperience": "Practical Experience",
+      "titleFirst": "Featured",
+      "titleSecond": "Projects",
+      "description": "Delivering scalable web solutions and intuitive user experiences.",
+      "subDescription": "Here are a few projects that define my technical journey.",
+      "projects": [
+        {
+          "title": "Scout TechFul",
+          "subTitle": "Japanese Job Platform",
+          "dateTime": "Oct 2023 - Aug 2024",
+          "company": "Freelance project",
+          "description": "A high-performance job search platform specifically for the Japanese market. The project focuses on a smooth search experience and optimized SEO capabilities.",
+          "features": [
+            "System architecture with Nuxt 3 ensures SEO and SSR (Server-Side Rendering).",
+            "Complex state management (search filters, applications) using Pinia.",
+            "Reduces runtime errors by closely applying TypeScript.",
+            "Modern and user-friendly interface design with Tailwind CSS.",
+            "Performance analysis and optimization using techniques such as code splitting and lazy loading."
+          ],
+          "technologies": [
+            "Nuxt 3",
+            "Pinia",
+            "TypeScript",
+            "Tailwind CSS",
+            "VeeValidate",
+            "TinyMCE",
+            "Swiper",
+            "Vuetify",
+            "Yup"
+          ]
+        },
+        {
+          "title": "Carrotcake",
+          "subTitle": "Al Social Media Manager",
+          "dateTime": "Sep 2023 - Feb 2025",
+          "company": "PRODUCT @ NAPA GLOBAL",
+          "description": "Built an AI-powered SaaS platform for automated content creation and social media scheduling (Facebook & Instagram).",
+          "features": [
+            "Integrating the OpenAI API and collaborating with the FastAPI backend team, we built an intelligent content recommendation engine.",
+            "Implemented a drag-and-drop scheduling system using Next.js for seamless post management.",
+            "Developed an automated scheduling workflow to publish posts at optimal times.",
+            "Designed a clean, modern UI with Tailwind CSS to enhance usability and user experience."
+          ],
+          "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "React hook form",
+            "Context API",
+            "Yup",
+            "Scss"
+          ]
+        },
+        {
+          "title": "Napa-tools",
+          "subTitle": "Internal Company Management Platform",
+          "dateTime": "Sep 2023 - Feb 2025",
+          "company": "PRODUCT @ NAPA GLOBAL",
+          "description": "An internal enterprise management platform that helps companies manage employees, projects, schedules, and operational workflows in a centralized system.",
+          "features": [
+            "Developed modules for HR management, project tracking, meeting room booking, and accounting operations.",
+            "IImplemented employee attendance tracking, work schedules (on/off), late check-ins, and request/approval workflows.",
+            "Built a responsive and reusable frontend using React.",
+            "Designed and implemented a scalable backend with NestJS and PostgreSQL.",
+            "Ensured secure, maintainable architecture with role-based access control and clean API design."
+          ],
+          "technologies": [
+            "React",
+            "Scss",
+            "React hook form",
+            "Zustand",
+            "React router",
+            "React query",
+            "Ant Design",
+            "TypeScript",
+            "Tailwind CSS",
+            "React big calendar",
+            "Yup",
+            "NestJS",
+            "PostgreSQL",
+            "TypeORM",
+            "Redis",
+            "JWT"
+          ]
+        },
+        {
+          "title": "Trainix",
+          "subTitle": "Transportation Training Management Platform",
+          "dateTime": "Apr 2023 - Oct 2023",
+          "company": "Freelance project",
+          "description": "A web-based platform designed to support transportation training and education management, helping organizations manage courses, learners, and training-related processes efficiently.",
+          "features": [
+            "Developed a modern and reusable frontend using Vue.js, focusing on clean UI structure and smooth user experience.",
+            "Designed and implemented the backend using NestJS, handling business logic, data flow, and API architecture.",
+            "Built core features for managing training courses, learners, and related educational data.",
+            "Designed APIs and data models, ensuring consistent data structures between frontend and backend.",
+            "Applied modular architecture, clean code practices, and well-structured API design to ensure scalability, maintainability, and long-term system stability."
+          ],
+          "technologies": [
+            "Vue.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Yup",
+            "Scss",
+            "Pinia",
+            "Nestjs",
+            "PostgreSQL",
+            "TypeORM",
+            "JWT"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "myStack": "My Stack",
+      "title": "Technical Proficiency",
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          {
+            "title": "Core Languages",
+            "list": "JavaScript, TypeScript"
+          },
+          {
+            "title": "React Ecosystem",
+            "list": "React.js, Next.js (App Router), Redux, React Query, React Hook Form, React Router, Zustand, React big calendar, React Select"
+          },
+          {
+            "title": "Vue Ecosystem",
+            "list": "Vue 3, Nuxt 3, Pinia, Vuetify, VeeValidate, Swiper"
+          },
+          {
+            "title": "UI & Styling",
+            "list": "Tailwind CSS, SCSS, Styled component, Figma (for Dev)"
+          }
+        ]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": [
+          {
+            "title": "Runtime & Frameworks",
+            "list": "Node.js, NestJS, Express"
+          },
+          {
+            "title": "Databases",
+            "list": "PostgreSQL, MongoDB"
+          },
+          {
+            "title": "Cloud Services",
+            "list": "AWS (EC2, S3), Firebase, Google Cloud (OAuth2)"
+          },
+          {
+            "title": "DevOps & Tools",
+            "list": "Docker, Git, Postman, Jest, Jira, Trello"
+          }
+        ]
+      },
+      "methodologies": {
+        "title": "Methodologies & Others",
+        "items": [
+          {
+            "title": "Workflow & Standards",
+            "list": "Agile/Scrum, Clean Code Principles, RESTful API Design"
+          },
+          {
+            "title": "Languages",
+            "list": "English (Reading Technical Documentation), Vietnamese (Native)"
+          }
+        ]
+      },
+      "softSkills": {
+        "title": "Soft Skills",
+        "items": [
+          "Problem Solving",
+          "Team Collaboration",
+          "Adaptability",
+          "Self-learning",
+          "Time Management",
+          "Attention to Detail"
+        ]
+      }
+    },
+    "experience": {
+      "title": "Professional Journey",
+      "subtitle": "Work History",
+      "totalExp": "3 Years",
+      "list": [
+        {
+          "role": "Full-stack Developer • Junior level",
+          "company": "Napa Global",
+          "period": "2023 - 2025",
+          "timeDuration": "1 Year 6 Months",
+          "type": "Da Nang",
+          "description": "A professional product & outsourcing environment, where I significantly developed my system-thinking mindset and teamwork skills.",
+          "projects": [
+            {
+              "title": "Project: Carrotcake (AI SaaS)",
+              "description": "Develop an AI-integrated social media management tool. Implement a content recommendation engine via the OpenAI API and an automatic posting scheduling feature on Facebook and Instagram.",
+              "stack": ["Next.js", "TypeScript"]
+            },
+            {
+              "title": "Project: Napa-tools (Internal ERP)",
+              "description": "Architected the internal management system (HR, Booking, Accounting). Designed database schema and RESTful APIs for secure data flow.",
+              "stack": ["React", "NestJS", "PostgreSQL"]
+            }
+          ],
+          "color": "emerald"
+        },
+        {
+          "role": "Web Developer • Technical Partner",
+          "company": "Freelancer",
+          "period": "2023",
+          "timeDuration": "",
+          "type": "Remote",
+          "description": "Transitioned to an independent working model as a Technical Partner, delivering custom web solutions tailored to client requirements.",
+          "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
+          "projects": [
+            {
+              "title": "Project: Scout TechFul",
+              "role": "FullStack Developer",
+              "client": "Japanese client",
+              "description": "A job search platform for the Japanese market. Implemented SEO-friendly architecture with Nuxt 3 and complex state management using Pinia.",
+              "stack": ["Nuxt 3", "TypeScript", "Tailwind CSS"]
+            },
+            {
+              "title": "Project: Trainix",
+              "role": "FullStack Developer",
+              "client": "United States client",
+              "description": "Developing a training management platform for the transportation sector, helping organizations effectively track courses, trainees, and training processes.",
+              "stack": ["Vue.js", "NestJS", "PostgreSQL"]
+            }
+          ],
+          "color": "indigo"
+        },
+        {
+          "role": "Frontend Developer • Internship",
+          "company": "FPT Software",
+          "period": "2022",
+          "timeDuration": "3 months",
+          "type": "Da Nang",
+          "description": "",
+          "technologies": ["React", "Redux", "Material UI"],
+          "projects": [
+            {
+              "title": "Project:",
+              "role": "Frontend Developer",
+              "client": "Korean client",
+              "description": "Contributed to the development of a digital financial information platform, focusing on user interface enhancements and interactive features.",
+              "stack": ["React", "Redux", "typeScript"]
+            }
+          ],
+          "color": "orange"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ready to start a project?",
+      "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question.",
+      "email": "mannjneff@gmail.com",
+      "status": "Available for new projects",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "resume": "Resume"
+      },
+      "phone": "+84 919 892 487",
+      "copyright": "© {year} Vo Manh Quan. All Rights Reserved."
+    }
+  },
+  "senior": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Ready to start a project?",
+      "description": "I'm currently open to new opportunities and collaborations.\nFeel free to reach out if you have a question.",
+      "email": "mannjneff@gmail.com",
+      "status": "Available for new projects",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "resume": "Resume"
+      },
+      "phone": "+84 919 892 487",
+      "copyright": "© {year} Vo Manh Quan. All Rights Reserved."
+    }
   }
 }

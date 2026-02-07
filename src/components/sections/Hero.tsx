@@ -5,6 +5,13 @@ import { motion } from 'framer-motion'
 import { Github, BookText } from 'lucide-react'
 import { Button } from '~/components/ui/button'
 import { IHero } from '~/types'
+import { resourceKey } from '~/constants/env'
+
+const CVSrc = {
+  junior: '/assets/CV/j-m/Vo_Manh_Quan_CV.pdf',
+  middle: '/assets/CV/m-s/Vo_Manh_Quan_CV.pdf',
+  senior: '/assets/CV/s-l/Vo_Manh_Quan_CV.pdf',
+}[resourceKey]
 
 export function Hero({ dict }: { dict: IHero }) {
   return (
@@ -44,7 +51,7 @@ export function Hero({ dict }: { dict: IHero }) {
               </div>
             </a>
             <a
-              href="/assets/Vo_Manh_Quan_CV.pdf"
+              href={CVSrc}
               target="_blank"
               rel="noreferrer"
               className="group flex flex-col items-center gap-3 transition-colors hover:text-primary"

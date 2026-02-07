@@ -7,6 +7,165 @@
       "experience": "Kinh nghiệm",
       "contact": "Liên hệ"
     },
+    "hero": {
+      "name": "Võ Mạnh Quân",
+      "introduction": "tôi là",
+      "role": "Lập trình viên Web",
+      "description": "Tôi là một kỹ sư phần mềm với trách nhiệm chính trong việc thiết kế và phát triển ứng dụng phần mềm, chủ yếu bằng ngôn ngữ lập trình JavaScript (TypeScript). Tôi có hơn 2 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, bao gồm việc xây dựng, bảo trì hệ thống và phân tích yêu cầu cho các dự án freelancer cũng như khi làm việc tại công ty.",
+      "greeting": "Xin chào",
+      "myCV": "CV của tôi",
+      "contactMe": "Liên hệ"
+    },
+    "about": {
+      "title": "Tóm tắt"
+    },
+    "objectives": {
+      "title": "Senior Full-stack Engineer",
+      "subtitle": "Mục tiêu nghề nghiệp",
+      "become": "Trở thành",
+      "yearNumber": "2",
+      "yearExperience": "Năm kinh nghiệm",
+      "projectDone": "Dự án đã hoàn thành",
+      "description": "Tôi không chỉ viết code, tôi xây dựng giải pháp. Tôi tập trung vào Clean Code, Design Patterns và khả năng độc lập giải quyết trọn vẹn một tính năng từ Database đến UI. Mục tiêu của tôi là làm chủ hệ sinh thái JavaScript/TypeScript để tạo ra các ứng dụng Web có khả năng mở rộng cao, hiệu năng tối ưu và tiết kiệm chi phí."
+    },
+    "growthRoadmap": {
+      "title": "Phát triển bản thân",
+      "subtitle": "Định hướng",
+      "orientation": "Định hướng",
+      "list": [
+        {
+          "id": "01",
+          "title": "Ngắn hạn (1-2 năm)",
+          "descriptions": [
+            "Chinh phục chứng chỉ AWS Solution Architect.",
+            "Đào sâu về Micro-frontends/Microservices.",
+            "Mong muốn làm việc và học tập trong môi trường chuyên nghiệp.",
+            "Tìm kiếm cơ hội cống hiến và phát triển bản thân."
+          ]
+        },
+        {
+          "id": "02",
+          "title": "Dài hạn (3-5 năm)",
+          "descriptions": [
+            "Trở thành Tech Lead, mentor cho các thành viên trẻ và tham gia vào quá trình phát triển sản phẩm (Product Mindset).",
+            "Tạo ra những thay đổi để đóng góp vào sự phát triển của công ty."
+          ]
+        }
+      ]
+    },
+    "project": {
+      "practicalExperience": "Kinh nghiệm thực tế",
+      "titleFirst": "Dự án",
+      "titleSecond": "Nổi bật",
+      "description": "Cung cấp các giải pháp web có khả năng mở rộng và trải nghiệm người dùng trực quan.",
+      "subDescription": "Dưới đây là một vài dự án tiêu biểu cho hành trình công nghệ của tôi.",
+      "projects": [
+        {
+          "title": "Scout TechFul",
+          "subTitle": "Nền tảng việc làm Nhật Bản",
+          "dateTime": "10/2023 -  8/2024",
+          "company": "Freelance project",
+          "description": "Một nền tảng tìm kiếm việc làm hiệu suất cao dành riêng cho thị trường Nhật Bản. Dự án tập trung vào trải nghiệm tìm kiếm mượt mà và khả năng SEO tối ưu.",
+          "features": [
+            "Kiến trúc hệ thống với Nuxt 3 đảm bảo SEO và SSR (Server-Side Rendering).",
+            "Quản lý state phức tạp (bộ lọc tìm kiếm, ứng tuyển) bằng Pinia.",
+            "Giảm lỗi runtime nhờ áp dụng chặt chẽ TypeScript.",
+            "Thiết kế giao diện hiện đại và dễ sử dụng với Tailwind CSS",
+            "Phân tích và tối ưu hóa hiệu suất với các kỹ thuật như code splitting và lazy loading."
+          ],
+          "technologies": [
+            "Nuxt 3",
+            "Pinia",
+            "TypeScript",
+            "Tailwind CSS",
+            "VeeValidate",
+            "TinyMCE",
+            "Swiper",
+            "Vuetify",
+            "Yup"
+          ]
+        },
+        {
+          "title": "Carrotcake",
+          "subTitle": "Nền tảng quản lý và tự động hóa mạng xã hội với AI",
+          "dateTime": "9/2023 - 2/2025",
+          "company": "PRODUCT @ NAPA GLOBAL",
+          "description": "Ứng dụng SaaS tích hợp AI giúp tự động sáng tạo nội dung và lên lịch đăng bài thông minh cho Facebook & Instagram.",
+          "features": [
+            "Tích hợp OpenAI API, kết hợp với đội ngũ backend FastAPI xây dựng engine gợi ý nội dung thông minh.",
+            "Xây dựng tính năng Drag-and-drop Scheduler trực quan với Next.js.",
+            "Xây dựng tính năng tự động lên lịch đăng bài thông minh với Next.js.",
+            "Thiết kế giao diện hiện đại và dễ sử dụng với Tailwind CSS"
+          ],
+          "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "React hook form",
+            "Yup",
+            "Scss"
+          ]
+        },
+        {
+          "title": "Napa-tools",
+          "subTitle": "Hệ thống quản lý nội bộ doanh nghiệp",
+          "dateTime": "9/2023 - 2/2025",
+          "company": "PRODUCT @ NAPA GLOBAL",
+          "description": "Nền tảng quản lý nội bộ giúp doanh nghiệp theo dõi nhân sự, dự án, lịch làm việc và các quy trình vận hành trong một hệ thống tập trung.",
+          "features": [
+            "Xây dựng các module quản lý nhân sự, theo dõi dự án, đặt phòng họp và nghiệp vụ kế toán.",
+            "Triển khai chức năng chấm công, theo dõi lịch làm việc (on/off), đi trễ và xử lý đơn từ – phê duyệt.",
+            "Phát triển giao diện người dùng bằng React, tối ưu khả năng tái sử dụng và trải nghiệm.",
+            "Xây dựng backend với NestJS và PostgreSQL, đảm bảo hiệu năng và khả năng mở rộng.",
+            "Áp dụng phân quyền người dùng và thiết kế API rõ ràng, dễ bảo trì."
+          ],
+          "technologies": [
+            "React",
+            "Scss",
+            "React hook form",
+            "Zustand",
+            "React router",
+            "React query",
+            "Ant Design",
+            "TypeScript",
+            "Tailwind CSS",
+            "React big calendar",
+            "Yup",
+            "NestJS",
+            "PostgreSQL",
+            "TypeORM",
+            "Redis",
+            "JWT"
+          ]
+        },
+        {
+          "title": "Trainix",
+          "subTitle": "Nền tảng quản lý đào tạo lĩnh vực giao thông – vận tải",
+          "dateTime": "4/2023 - 10/2023",
+          "company": "Freelance project",
+          "description": "Một ứng dụng web phục vụ cho việc quản lý đào tạo và giảng dạy trong lĩnh vực giao thông – vận tải, giúp tổ chức theo dõi khóa học, học viên và các quy trình đào tạo một cách hiệu quả.",
+          "features": [
+            "Phát triển giao diện người dùng bằng Vue.js, tập trung vào cấu trúc rõ ràng, khả năng tái sử dụng và trải nghiệm mượt mà.",
+            "Thiết kế và xây dựng backend bằng NestJS, đảm nhiệm xử lý nghiệp vụ, luồng dữ liệu và hệ thống API.",
+            "Xây dựng các chức năng cốt lõi như quản lý khóa học, học viên và dữ liệu đào tạo liên quan.",
+            "Thiết kế API và mô hình dữ liệu, đảm bảo sự đồng bộ và nhất quán giữa frontend và backend.",
+            "Áp dụng kiến trúc module, chuẩn clean code và thiết kế API rõ ràng nhằm đảm bảo khả năng mở rộng, dễ bảo trì và ổn định lâu dài của hệ thống."
+          ],
+          "technologies": [
+            "Vue.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Yup",
+            "Scss",
+            "Pinia",
+            "Nestjs",
+            "PostgreSQL",
+            "TypeORM",
+            "JWT"
+          ]
+        }
+      ]
+    },
     "skills": {
       "myStack": "Kỹ Năng",
       "title": "Năng lực chuyên môn",
@@ -77,6 +236,79 @@
         ]
       }
     },
+    "experience": {
+      "title": "Hành trình sự nghiệp",
+      "subtitle": "Lịch sử làm việc",
+      "totalExp": "2 Năm",
+      "list": [
+        {
+          "role": "Full-stack Developer • Junior level",
+          "company": "Napa Global",
+          "period": "2023 - 2025",
+          "timeDuration": "1 năm 6 tháng",
+          "type": "Đà Nẵng",
+          "description": "Môi trường Product & Outsourcing chuyên nghiệp. Đây là nơi tôi trưởng thành nhất về tư duy hệ thống và quy trình làm việc nhóm (Teamwork).",
+          "projects": [
+            {
+              "title": "Dự án: Carrotcake (AI SaaS)",
+              "description": "Xây dựng công cụ quản lý mạng xã hội tích hợp AI. Triển khai engine gợi ý nội dung thông qua OpenAI API và tính năng lên lịch đăng bài tự động trên các nền tảng facebook, instagram.",
+              "stack": ["Next.js", "TypeScript"]
+            },
+            {
+              "title": "Dự án: Napa-tools (Internal ERP)",
+              "description": "Thiết kế kiến trúc hệ thống quản lý nội bộ (Nhân sự, Đặt phòng, Kế toán). Thiết kế schema cơ sở dữ liệu và RESTful API cho luồng dữ liệu an toàn.",
+              "stack": ["React", "NestJS", "PostgreSQL"]
+            }
+          ],
+          "color": "emerald"
+        },
+        {
+          "role": "Web Developer • Technical Partner",
+          "company": "Freelancer",
+          "period": "2023",
+          "timeDuration": "",
+          "type": "Remote",
+          "description": "Chuyển đổi sang mô hình làm việc độc lập với vai trò đối tác kỹ thuật (Technical Partner), phát triển các dự án web tùy chỉnh theo yêu cầu khách hàng.",
+          "technologies": ["Vue 3", "Nuxt 3", "Pinia", "TypeScript"],
+          "projects": [
+            {
+              "title": "Dự án: Scout TechFul",
+              "role": "FullStack Developer",
+              "client": "Khách hàng Nhật Bản",
+              "description": "Xây dựng nền tảng tìm kiếm việc làm hiệu suất cao dành riêng cho thị trường Nhật Bản. Dự án tập trung vào trải nghiệm tìm kiếm mượt mà và khả năng SEO tối ưu.",
+              "stack": ["Nuxt 3", "Pinia", "TypeScript"]
+            },
+            {
+              "title": "Dự án: Trainix",
+              "role": "FullStack Developer",
+              "client": "Khách hàng Mỹ",
+              "description": "Phát triển nền tảng quản lý đào tạo lĩnh vực giao thông – vận tải, giúp tổ chức theo dõi khóa học, học viên và các quy trình đào tạo một cách hiệu quả.",
+              "stack": ["Vue.js", "NestJS", "PostgreSQL"]
+            }
+          ],
+          "color": "indigo"
+        },
+        {
+          "role": "Frontend Developer •  Thực tập sinh",
+          "company": "FPT Software",
+          "period": "2022",
+          "timeDuration": "3 tháng",
+          "type": "Da Nang",
+          "description": "",
+          "technologies": ["React", "Redux", "Material UI"],
+          "projects": [
+            {
+              "title": "Dự án:",
+              "role": "Frontend Developer",
+              "client": "Khách hàng Hàn Quốc",
+              "description": "Đã đóng góp vào việc phát triển nền tảng thông tin tài chính kỹ thuật số, tập trung vào việc cải tiến giao diện người dùng và các tính năng tương tác.",
+              "stack": ["React", "Redux", "typeScript"]
+            }
+          ],
+          "color": "orange"
+        }
+      ]
+    },
     "contact": {
       "title": "Sẵn sàng bắt đầu dự án mới?",
       "description": "Tôi hiện đang tìm kiếm cơ hội mới và sự hợp tác.\nHãy liên hệ nếu bạn có câu hỏi.",
@@ -115,6 +347,7 @@
       "title": "Senior Full-stack Engineer",
       "subtitle": "Mục tiêu nghề nghiệp",
       "become": "Trở thành",
+      "yearNumber": "2",
       "yearExperience": "Năm kinh nghiệm",
       "projectDone": "Dự án đã hoàn thành",
       "description": "Tôi không chỉ viết code, tôi xây dựng giải pháp. Tôi tập trung vào Clean Code, Design Patterns và khả năng độc lập giải quyết trọn vẹn một tính năng từ Database đến UI. Mục tiêu của tôi là làm chủ hệ sinh thái JavaScript/TypeScript để tạo ra các ứng dụng Web có khả năng mở rộng cao, hiệu năng tối ưu và tiết kiệm chi phí."

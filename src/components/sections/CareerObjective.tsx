@@ -27,7 +27,7 @@ const CareerObjective = ({ dict }: CareerObjectiveProps) => {
 
         <div className="grid grid-cols-2 gap-8 border-t pt-8">
           <div>
-            <div className="text-5xl font-bold mb-2">3+</div>
+            <div className="text-5xl font-bold mb-2">{dict.yearNumber}+</div>
             <div className="text-sm text-muted-foreground uppercase tracking-widest">
               {dict.yearExperience}
             </div>

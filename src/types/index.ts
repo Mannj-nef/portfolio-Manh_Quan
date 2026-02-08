@@ -16,6 +16,7 @@ export interface IObjectives {
   title: string
   subtitle: string
   become: string
+  yearNumber: string
   description: string
   yearExperience: string
   projectDone: string

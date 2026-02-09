@@ -54,7 +54,7 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: '/assets/og-image.png', // We should ensure this asset exists or is generated
+          url: `${baseUrl}/assets/manh-quan.webp`,
           width: 1200,
           height: 630,
           alt: 'Vo Manh Quan Portfolio',
@@ -65,7 +65,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: 'Vo Manh Quan | Full Stack Developer',
       description: 'Professional Portfolio & Projects',
-      images: ['/assets/og-image.png'],
+      images: [`${baseUrl}/assets/manh-quan.webp`],
     },
     robots: {
       index: true,

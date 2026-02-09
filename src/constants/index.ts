@@ -1,5 +1,5 @@
 export const config = {
-  url: process.env.NEXT_PUBLIC_URL || 'https://portfolio-manh-quan.vercel.app/',
+  url: process.env.NEXT_PUBLIC_URL || 'https://portfolio-manh-quan.vercel.app',
 }
 
 export const TECHNICAL_LIST = [

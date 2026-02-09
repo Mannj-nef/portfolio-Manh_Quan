@@ -22,7 +22,7 @@ export default async function Home({
     '@type': 'Person',
     name: 'Vo Manh Quan',
     url: config.url,
-    image: `${config.url}/assets/avatar.png`,
+    image: `${config.url}/assets/manh-quan.webp`,
     sameAs: [
       'https://github.com/mannj-nef',
       'https://www.linkedin.com/in/mannj-neff/',

@@ -21,7 +21,6 @@ export function LanguageSwitcher({ currentLang }: { currentLang: Locale }) {
       {languages.map((lang) => (
         <button
           key={lang}
-          aria-label="Toggle theme"
           onClick={() => switchLanguage(lang)}
           className={`px-2 py-1 text-xs rounded-[6px] transition-colors cursor-pointer ${
             currentLang === lang

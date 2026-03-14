@@ -1,22 +1,8 @@
-import { Inter, Fraunces } from 'next/font/google'
-import '@/app/globals.css'
-import { languages } from '@/i18n/settings'
-import { Providers } from '@/components/providers'
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { ScrollToTop } from '@/components/ScrollToTop'
-import { AnimatedBackground } from '@/components/AnimatedBackground'
-import { getDictionary } from '@/i18n/dictionaries'
-import type { Locale } from '@/i18n/settings'
-import { Metadata } from 'next'
+import { type Metadata } from 'next'
+import React from 'react'
 import { config } from '~/constants'
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
-const fraunces = Fraunces({ subsets: ['latin'], variable: '--font-serif' })
-
-export async function generateStaticParams() {
-  return languages.map((lang) => ({ lang }))
-}
+import { getDictionary } from '~/i18n/dictionaries'
+import { Locale } from '~/i18n/settings'
 
 // ... existing imports
 export async function generateMetadata({
@@ -79,31 +65,10 @@ export async function generateMetadata({
   }
 }
 
-export default async function LangLayout({
+export default function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode
-  params: Promise<{ lang: string }>
 }) {
-  const { lang } = await params
-  const dictionary = await getDictionary(lang as Locale)
-
-  return (
-    <html lang={lang} suppressHydrationWarning>
-      <body
-        className={`${inter.variable} ${fraunces.variable} min-h-screen bg-background text-foreground antialiased font-sans overflow-x-hidden`}
-      >
-        <Providers>
-          <AnimatedBackground />
-          <div className="flex min-h-screen flex-col relative">
-            <Header lang={lang as Locale} dict={dictionary.nav} />
-            <main className="flex-1">{children}</main>
-            <Footer copyright={dictionary.contact.copyright} />
-          </div>
-          <ScrollToTop />
-        </Providers>
-      </body>
-    </html>
-  )
+  return <div>{children}</div>
 }

@@ -21,6 +21,7 @@ export function LanguageSwitcher({ currentLang }: { currentLang: Locale }) {
       {languages.map((lang) => (
         <button
           key={lang}
+          id={lang}
           onClick={() => switchLanguage(lang)}
           className={`px-2 py-1 text-xs rounded-[6px] transition-colors cursor-pointer ${
             currentLang === lang

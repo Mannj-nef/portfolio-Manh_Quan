@@ -13,9 +13,16 @@ function getLocale(request: NextRequest): string {
 }
 
 export function middleware(request: NextRequest) {
+  const userAgent = request.headers.get('user-agent') || ''
+  const isBot = /facebookexternalhit|Facebot|MessengerBot/i.test(userAgent)
+
+  if (isBot) {
+    return NextResponse.next()
+  }
+
   const { pathname } = request.nextUrl
   const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   )
 
   if (pathnameHasLocale) return

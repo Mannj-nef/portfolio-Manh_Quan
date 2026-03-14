@@ -42,6 +42,7 @@ export function Hero({ dict }: { dict: IHero }) {
           <div className="flex gap-4 items-center">
             <a
               href="https://github.com/Mannj-nef"
+              aria-label="Go to github"
               target="_blank"
               rel="noreferrer"
               className="group flex flex-col items-center gap-3 transition-colors hover:text-primary"

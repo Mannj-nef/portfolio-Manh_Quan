@@ -50,6 +50,19 @@ export interface IProjects {
   }[]
 }
 
+export interface IPersonalProjects {
+  titleFirst: string
+  titleSecond: string
+  description: string
+  projects: {
+    title: string
+    description: string
+    technologies: string[]
+    githubUrl?: string
+    externalUrl?: string
+  }[]
+}
+
 export interface ISkillCategory {
   title: string
   list: string

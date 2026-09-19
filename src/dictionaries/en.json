@@ -11,7 +11,7 @@
       "name": "Vo Manh Quan",
       "introduction": "I'm",
       "role": "Web Developer",
-      "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript (TypeScript). I have over two years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
+      "description": "I am a software engineer responsible for designing and developing applications and software, primarily using JavaScript (TypeScript). I have over three years of experience in software development, including building, maintaining, and analyzing project requirements for both freelance projects and company-based work.",
       "greeting": "Hello",
       "myCV": "My CV",
       "contactMe": "Contact Me"
@@ -23,7 +23,7 @@
       "title": "Senior Full-stack Engineer",
       "subtitle": "Career Objective",
       "become": "Become",
-      "yearNumber": "2",
+      "yearNumber": "3",
       "yearExperience": "Year Experience",
       "projectDone": "Project Done",
       "description": "I don't just write code, I build solutions. I focus on clean code, design patterns, and the ability to independently handle a complete feature from database to UI. My goal is to master the JavaScript/TypeScript ecosystem to create highly scalable, high-performance, and cost-effective web applications."
@@ -240,8 +240,45 @@
     "experience": {
       "title": "Professional Journey",
       "subtitle": "Work History",
-      "totalExp": "2 Years",
+      "totalExp": "3 Years",
       "list": [
+        {
+          "role": "Frontend Developer • Middle",
+          "company": "FPT Software",
+          "period": "03/2026 - Present",
+          "timeDuration": "",
+          "type": "Da Nang",
+          "description": "Working at FPT Software as a Frontend Developer, participating in the development and maintenance of large-scale web projects.",
+          "projects": [
+            {
+              "title": "Project: Shinsegae - DutyFree",
+              "role": "Frontend Developer",
+              "client": "South Korean client",
+              "description": "A retail e-commerce platform for duty-free shopping in South Korea. Migrating and modernizing an existing legacy system, including key business modules such as Auction and Out-of-Stock management. Handled authentication, authorization, dark mode and winning bid order workflow.",
+              "stack": [
+                "React.js",
+                "TypeScript",
+                "React Hook Form",
+                "Zod",
+                "Git"
+              ]
+            },
+            {
+              "title": "Project: YARAKY - TRUE SAFE Fleet",
+              "role": "Frontend Developer",
+              "client": "",
+              "description": "Developed master data management screens. Built reusable shared components for front-end common modules. Fixed issues and refactored existing modules. Collaborated with team members during development.",
+              "stack": [
+                "React.js",
+                "TypeScript",
+                "React Hook Form",
+                "Zod",
+                "Git"
+              ]
+            }
+          ],
+          "color": "orange"
+        },
         {
           "role": "Full-stack Developer • Junior level",
           "company": "Napa Global",
@@ -568,7 +605,44 @@
       "totalExp": "3 Years",
       "list": [
         {
-          "role": "Full-stack Developer • Junior level",
+          "role": "Frontend Developer • Middle",
+          "company": "FPT Software",
+          "period": "03/2026 - Present",
+          "timeDuration": "",
+          "type": "Da Nang",
+          "description": "Working at FPT Software as a Frontend Developer, participating in the development and maintenance of large-scale web projects.",
+          "projects": [
+            {
+              "title": "Project: Shinsegae - DutyFree",
+              "role": "Frontend Developer",
+              "client": "South Korean client",
+              "description": "A retail e-commerce platform for duty-free shopping in South Korea. Migrating and modernizing an existing legacy system, including key business modules such as Auction and Out-of-Stock management. Handled authentication, authorization, dark mode and winning bid order workflow.",
+              "stack": [
+                "React.js",
+                "TypeScript",
+                "React Hook Form",
+                "Zod",
+                "Git"
+              ]
+            },
+            {
+              "title": "Project: YARAKY - TRUE SAFE Fleet",
+              "role": "Frontend Developer",
+              "client": "",
+              "description": "Developed master data management screens. Built reusable shared components for front-end common modules. Fixed issues and refactored existing modules. Collaborated with team members during development.",
+              "stack": [
+                "React.js",
+                "TypeScript",
+                "React Hook Form",
+                "Zod",
+                "Git"
+              ]
+            }
+          ],
+          "color": "orange"
+        },
+        {
+          "role": "Full-stack Developer • Middle level",
           "company": "Napa Global",
           "period": "2023 - 2025",
           "timeDuration": "1 Year 6 Months",

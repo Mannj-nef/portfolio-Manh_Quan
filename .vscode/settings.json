@@ -1,4 +1,5 @@
 {
   "workbench.colorTheme": "Visual Studio Dark",
-  "editor.language.brackets": []
+  "editor.language.brackets": [],
+  "liveServer.settings.port": 5501
 }

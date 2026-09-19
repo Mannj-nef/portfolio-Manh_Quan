@@ -6,6 +6,7 @@ import { Skills } from '@/components/sections/Skills'
 import { Experience } from '@/components/sections/Experience'
 import { Contact } from '@/components/sections/Contact'
 import { Projects } from '@/components/sections/Projects'
+import { PersonalProjects } from '@/components/sections/PersonalProjects'
 import { config } from '~/constants'
 
 export default async function Home({
@@ -22,7 +23,7 @@ export default async function Home({
     '@type': 'Person',
     name: 'Vo Manh Quan',
     url: config.url,
-    image: `${config.url}/assets/manh-quan.webp`,
+    image: `${config.url}/assets/manh-quan.jpeg`,
     sameAs: [
       'https://github.com/mannj-nef',
       'https://www.linkedin.com/in/mannj-neff/',
@@ -54,6 +55,7 @@ export default async function Home({
       <Skills dict={dict.skills} />
       <Experience dict={dict.experience} />
       <Projects dict={dict.project} />
+      {/* <PersonalProjects /> */}
       <Contact dict={dict.contact} />
     </div>
   )

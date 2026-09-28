@@ -8,8 +8,15 @@ import { ScrollToTop } from '@/components/ScrollToTop'
 import { AnimatedBackground } from '@/components/AnimatedBackground'
 import { getDictionary } from '@/i18n/dictionaries'
 import type { Locale } from '@/i18n/settings'
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
 import { config } from '~/constants'
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#09090b' },
+  ],
+}
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 const fraunces = Fraunces({ subsets: ['latin'], variable: '--font-serif' })
@@ -75,6 +82,23 @@ export async function generateMetadata({
         'max-image-preview': 'large',
         'max-snippet': -1,
       },
+    },
+    icons: {
+      icon: [
+        { url: '/mannjneff-logo.svg', type: 'image/svg+xml' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+        { url: '/favicon.ico', sizes: 'any' },
+      ],
+      apple: [
+        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      ],
+    },
+    manifest: '/site.webmanifest',
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: 'default',
+      title: 'Manh Quan',
     },
   }
 }

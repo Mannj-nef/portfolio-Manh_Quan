@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import type { Locale } from '@/i18n/settings'
+import Image from 'next/image'
 
 export function Header({
   lang,
@@ -15,7 +16,13 @@ export function Header({
       <div className="container mx-auto flex h-14 items-center justify-between px-4 md:px-8">
         <div className="mr-4 flex">
           <Link href={`/`} className="mr-6 flex items-center space-x-2">
-            <span className="font-bold sm:inline-block">VMQ</span>
+            <Image
+              src="/mannjneff-logo.svg"
+              width={40}
+              height={40}
+              alt="logo"
+              className="cursor-pointer"
+            />
           </Link>
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
             <Link

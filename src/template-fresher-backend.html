@@ -15,6 +15,7 @@
         size: A4;
         margin: 0;
       }
+      html,
       body {
         font-family: 'Inter', sans-serif;
         background-color: #0c0a09; /* Stone-950 */
@@ -29,6 +30,23 @@
         background-color: #0c0a09;
         padding: 30px;
         box-sizing: border-box;
+      }
+      @media print {
+        html,
+        body {
+          background-color: #0c0a09 !important;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 100% !important;
+        }
+        .print-container {
+          background-color: #0c0a09 !important;
+          min-height: 100% !important;
+          box-shadow: none !important;
+          padding: 30px !important;
+        }
       }
       /* Các element trang trí */
       .accent-text {
@@ -57,7 +75,7 @@
       }
     </style>
   </head>
-  <body class="bg-stone-900 flex justify-center py-10 print:py-0">
+  <body class="bg-stone-900 print:bg-[#0c0a09] flex justify-center py-10 print:py-0">
     <div class="print-container shadow-2xl print:shadow-none relative">
       <!-- HEADER -->
       <header class="flex justify-between items-start mb-6">

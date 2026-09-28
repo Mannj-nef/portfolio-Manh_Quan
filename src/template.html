@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vo Manh Quan - CV</title>
+    <link rel="icon" type="image/svg+xml" href="/mannjneff-logo.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
@@ -15,6 +20,7 @@
         size: A4;
         margin: 0;
       }
+      html,
       body {
         font-family: 'Inter', sans-serif;
         background-color: #0c0a09; /* Stone-950 */
@@ -29,6 +35,31 @@
         background-color: #0c0a09;
         padding: 25px;
         box-sizing: border-box;
+      }
+      /* Đảm bảo toàn bộ các trang in đều có background full #0c0a09 và có khoảng cách đầu trang 2 */
+      @media print {
+        html,
+        body {
+          background-color: #0c0a09 !important;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 100% !important;
+        }
+        .print-container {
+          background-color: #0c0a09 !important;
+          min-height: 100% !important;
+          box-shadow: none !important;
+          padding: 25px !important;
+        }
+        .page-break-header {
+          break-before: page !important;
+          page-break-before: always !important;
+          height: 25px !important;
+          display: block !important;
+          width: 100% !important;
+        }
       }
       /* Các element trang trí */
       .accent-text {
@@ -57,7 +88,7 @@
       }
     </style>
   </head>
-  <body class="bg-stone-900 flex justify-center py-10 print:py-0">
+  <body class="bg-stone-900 print:bg-[#0c0a09] flex justify-center py-10 print:py-0">
     <div class="print-container shadow-2xl print:shadow-none relative">
       <!-- HEADER -->
       <header class="flex justify-between items-start mb-6">
@@ -165,12 +196,12 @@
           <div class="mb-5">
             <h2 class="section-title">Professional Summary</h2>
             <p class="text-xs text-stone-300 leading-relaxed text-justify">
-              Software Engineer with nearly 3 years of hands-on experience in
-              Web Development (JavaScript ecosystem). Possess a solid foundation
-              in building scalable applications with React, Next.js, Vue, Nuxt
-              and Node.js. Passionate about clean code, performance
-              optimization, and currently seeking a dynamic and challenging
-              environment to contribute to product growth.
+              Software Engineer with over 3 years of hands-on experience in Web
+              Development (JavaScript ecosystem). Possess a solid foundation in
+              building scalable applications with React, Next.js, Vue, Nuxt and
+              Node.js. Passionate about clean code, performance optimization,
+              and currently seeking a dynamic and challenging environment to
+              contribute to product growth.
             </p>
           </div>
 
@@ -189,24 +220,35 @@
                   >Mar 2026 - Present</span
                 >
               </div>
-              <p class="text-xs text-orange-500 mb-2">
-                FPT Software
-              </p>
+              <p class="text-xs text-orange-500 mb-2">FPT Software</p>
               <ul
                 class="list-disc list-inside text-[12px] text-stone-400 space-y-1 mb-2"
               >
                 <li>
-                  <span class="text-white font-semibold">Shinsegae - DutyFree:</span> A retail e-commerce platform for duty-free shopping in South Korea. Migrating and modernizing legacy systems, developing the winning bid order workflow, and handling authentication/authorization.
+                  <span class="text-white font-semibold"
+                    >Shinsegae - DutyFree:</span
+                  >
+                  A retail e-commerce platform for duty-free shopping in South
+                  Korea. Migrating and modernizing legacy systems, developing
+                  the winning bid order workflow, and handling
+                  authentication/authorization.
                 </li>
                 <li>
-                  <span class="text-white font-semibold">YARAKY - TRUE SAFE Fleet:</span> Developed master data management screens and built reusable shared components. Fixed issues and refactored existing modules.
+                  <span class="text-white font-semibold"
+                    >YARAKY - TRUE SAFE Fleet:</span
+                  >
+                  Developed master data management screens and built reusable
+                  shared components. Fixed issues and refactored existing
+                  modules.
                 </li>
               </ul>
               <div class="text-[12px] text-stone-500 mt-2">
                 <span class="font-semibold text-stone-300">Tech stack:</span>
                 <div class="ml-2">
                   <span>Frontend:</span>
-                  <span class="text-white/80 font-bold">React.js, TypeScript, React Hook Form, Zod</span>
+                  <span class="text-white/80 font-bold"
+                    >React.js, TypeScript, React Hook Form, Zod</span
+                  >
                 </div>
               </div>
             </div>
@@ -306,7 +348,7 @@
               </div>
             </div>
 
-            <div class="h-8"></div>
+            <div class="h-8 print:block print:h-[25px] page-break-header"></div>
 
             <!-- Job 4 -->
             <div class="mb-6 relative pl-4 border-l-2 border-stone-800">

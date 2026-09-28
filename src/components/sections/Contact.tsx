@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 interface ContactProps {
   dict: {
@@ -48,7 +49,15 @@ export function Contact({ dict }: ContactProps) {
             transition={{ duration: 0.5 }}
             className="flex h-12 w-12 items-center justify-center rounded font-bold bg-accent py-5 px-8  text-foreground shadow-lg"
           >
-            VMQ
+            <div>
+              <Image
+                src="/mannjneff-logo.svg"
+                width={80}
+                height={80}
+                alt="logo"
+                className="cursor-pointer"
+              />
+            </div>
           </motion.div>
 
           {/* Heading */}

@@ -47,17 +47,15 @@ export function Contact({ dict }: ContactProps) {
             whileInView={{ scale: 1, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="flex h-12 w-12 items-center justify-center rounded font-bold bg-accent py-5 px-8  text-foreground shadow-lg"
+            className="flex h-24 w-24 items-center justify-center rounded shadow-lg"
           >
-            <div>
-              <Image
-                src="/mannjneff-logo.svg"
-                width={80}
-                height={80}
-                alt="logo"
-                className="cursor-pointer"
-              />
-            </div>
+            <Image
+              src="/mannjneff-logo.svg"
+              width={40}
+              height={40}
+              alt="Logo"
+              className="cursor-pointer object-contain"
+            />
           </motion.div>
 
           {/* Heading */}
